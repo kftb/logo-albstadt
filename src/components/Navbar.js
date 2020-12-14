@@ -6,18 +6,13 @@ export default class Navbar extends Component {
 		return (
 			<div>
 				<nav className='navbar'>
-					<div className='navbar--logo-holder'>
-						<img
-							src='./images/logoalbstadt.svg'
-							alt='logo'
-							className='navbar--logo'
-						/>
-						<h1>Logo Albstadt</h1>
-					</div>
-					<ul className='navbar--link'>
-						<li className='navbar--link-item'>Home</li>
-						<li className='navbar--link-item'>About</li>
-						<li className='navbar--link-item'>Blog</li>
+					<img src={require("../images/logoalbstadt.svg")} />
+					<ul className='navbar-link'>
+						<li className='navbar-link-item'>Unser Praxisfokus</li>
+						<li className='navbar-link-item'>Unser Team</li>
+						<li className='navbar-link-item'>Termin & Öffnungszeiten</li>
+						<li className='navbar-link-item'>Therapieablauf</li>
+						<li className='navbar-link-item'>Anfahrt</li>
 					</ul>
 				</nav>
 			</div>
