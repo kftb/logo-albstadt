@@ -13,6 +13,20 @@
 }
 
 @font-face {
+	font-family: "Polly Rounded";
+	src: url(../fonts/polly/PollyRounded-Bold.otf) format("otf");
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: "PollyRounded";
+	src: url(../fonts/polly/PollyRounded-Regular.otf) format("otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: "Droid Sans";
 	src: local("Droid Sans"), url(../fonts/droid-sans/DroidSans.ttf) format("ttf");
 }
@@ -25,7 +39,11 @@
 
 @font-face {
 	font-family: "droid_sansregular";
-	src: url("../fonts/droid-sans/DroidSans-webfont.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
+	src: url("../fonts/droid-sans/DroidSans-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: bold;
+}
+
+html {
+	font-size: 12px;
 }
