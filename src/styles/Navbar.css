@@ -2,11 +2,14 @@
 	display: flex;
 	align-items: center;
 	padding: 0.5rem 2.5rem;
-	position: absolute;
+	position: fixed;
 	z-index: 1;
 	width: 100%;
 }
 
+.navbar-img {
+	height: 4rem;
+}
 .navbar-sticky {
 	background: #333;
 	position: fixed;
