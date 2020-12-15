@@ -19,9 +19,30 @@ export default class Features extends Component {
 					copy='Dies ist ein beschreibender Text, der aussagt, wie die Praxis
                 besonders auf Kinder und Jugendliche ausgerichtet ist. Die folgende
                 Liste gibt einen Überblick über alle Störungsbilder, die in der Praxis
-                behandelt werden können.'
+				behandelt werden können.'
+					list={
+						<ul>
+							<li>Sprachentwicklungsstörung</li>
+							<li>Störung des Lauterwerbs (phonologische Störung)</li>
+							<li>Störung des Wortschatzes</li>
+						</ul>
+					}
 				/>
-				<Subfeature />
+				<Subfeature
+					img={require("../../images/seniors.png")}
+					heading='Senioren und Seniorinnen'
+					copy='Dies ist ein beschreibender Text, der aussagt, wie die Praxis
+                besonders auf Kinder und Jugendliche ausgerichtet ist. Die folgende
+                Liste gibt einen Überblick über alle Störungsbilder, die in der Praxis
+				behandelt werden können.'
+					list={
+						<ul>
+							<li>Sprachentwicklungsstörung</li>
+							<li>Störung des Lauterwerbs (phonologische Störung)</li>
+							<li>Störung des Wortschatzes</li>
+						</ul>
+					}
+				/>
 			</div>
 		);
 	}
