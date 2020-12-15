@@ -7,7 +7,7 @@ export default class Navbar extends Component {
 			<div>
 				<nav className='navbar'>
 					<img
-						className='navbar-img'
+						className='navbar-logo'
 						src={require("../images/logoalbstadt.svg")}
 					/>
 					<ul className='navbar-link'>

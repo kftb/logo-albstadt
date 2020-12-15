@@ -8,7 +8,7 @@
 }
 
 .navbar-img {
-	height: 4rem;
+	height: 5rem;
 }
 .navbar-sticky {
 	background: #333;
@@ -20,15 +20,19 @@
 }
 
 .navbar-logo {
-	width: 2rem;
-	height: 2rem;
+	height: 5rem;
 	margin-right: 0.5rem;
+	margin-left: 1rem;
 	animation: rotate 0.7s ease-in-out 0.5s;
 }
 
 .navbar-link {
 	display: flex;
 	list-style: none;
+	align-items: center;
+	margin-bottom: 0px;
+	font-size: 1.2rem;
+	margin-right: 4rem;
 }
 
 .navbar-link-item {
