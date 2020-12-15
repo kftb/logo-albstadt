@@ -12,23 +12,23 @@
 
 .quote-symbol {
 	text-align: left;
-	font-size: 10em;
+	font-size: 10rem;
 	font-family: "Georgia";
 }
 
 .quote-title {
-	font-size: 3em;
+	font-size: 3rem;
 	display: inline-block;
 	text-align: left;
 }
 
 .quote-author {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	text-align: right;
 }
 
 .quote-copy {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	display: inline-block;
 	text-align: left;
 	margin-top: 4rem;
