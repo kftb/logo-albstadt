@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "Modulus";
+	src: local("Modulus"), url(../fonts/modulus/Modulus.ttf) format("ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ModulusBold";
+	src: local("Modulus"), url(../fonts/modulus/Modulus-Bold.otf) format("otf");
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: "Droid Sans";
+	src: local("Droid Sans"), url(../fonts/droid-sans/DroidSans.ttf) format("ttf");
+}
+@font-face {
+	font-family: "droid_sansregular";
+	src: url("../fonts/droid-sans/DroidSans-webfont.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "droid_sansregular";
+	src: url("../fonts/droid-sans/DroidSans-webfont.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
