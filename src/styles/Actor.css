@@ -1,0 +1,18 @@
+.actor {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10rem;
+	font-family: "droid_sansregular";
+	color: #796357;
+	font-size: 1.5rem;
+}
+
+.actor-heading {
+	font-family: "Polly Rounded";
+	letter-spacing: -0.04em;
+	font-size: 3rem;
+}
+
+.actor-copy {
+	font-size: 1.5rem;
+}

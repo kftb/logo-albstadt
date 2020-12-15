@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero/Hero";
 import Quote from "./Quote/Quote";
 import Features from "../components/Features/Features";
+import Actor from "../components/Actor/Actor";
 
 export default class App extends Component {
 	render() {
@@ -14,6 +15,7 @@ export default class App extends Component {
 				<Hero />
 				<Quote />
 				<Features />
+				<Actor />
 			</div>
 		);
 	}
