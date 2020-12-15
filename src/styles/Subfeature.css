@@ -7,11 +7,16 @@
 
 .subfeature-img {
 	grid-column: 1;
-	grid-row: 2;
+	grid-row: 1 / span 2;
+}
+
+.subfeature-img img {
+	width: 55%;
+	margin-top: 0.5rem;
 }
 
 .subfeature-heading {
-	grid-column: 1;
+	grid-column: 2;
 	grid-row: 1;
 	column-span: 2;
 	font-weight: bold;
