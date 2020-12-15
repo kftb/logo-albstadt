@@ -1,0 +1,28 @@
+.subfeature {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: repeat(auto, 3);
+	margin-top: 3rem;
+}
+
+.subfeature-img {
+	grid-column: 1;
+	grid-row: 1 / span 2;
+}
+
+.subfeature-img img {
+	width: 55%;
+	margin-top: 0.5rem;
+}
+
+.subfeature-heading {
+	grid-column: 2;
+	grid-row: 1;
+	column-span: 2;
+	font-weight: bold;
+}
+
+.subfeature-copy {
+	grid-column: 2;
+	grid-row: 2;
+}
