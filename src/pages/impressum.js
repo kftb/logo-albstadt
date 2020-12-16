@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+
 import "../styles/index.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "../components/Navbar";
-
+import Impressum from "../components/Impressum/Impressum";
 import Footer from "../components/Footer/Footer";
 
 export default class impressum extends Component {
@@ -12,6 +13,7 @@ export default class impressum extends Component {
 		return (
 			<div>
 				<Navbar />
+				<Impressum />
 				<Footer />
 			</div>
 		);
