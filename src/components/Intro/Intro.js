@@ -3,6 +3,16 @@ import "../../styles/intro.css";
 
 export default class Intro extends Component {
 	render() {
-		return <div className='intro'></div>;
+		return (
+			<div className='intro'>
+				<div className='intro-container'>
+					<div className='intro-title'>
+						<span className='quote-symbol'>"</span>
+						Sprache gehört zum Charakter des Menschen
+					</div>
+					<div className='intro-author'>Francis Bacon</div>
+				</div>
+			</div>
+		);
 	}
 }
