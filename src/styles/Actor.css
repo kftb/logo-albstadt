@@ -1,18 +1,60 @@
 .actor {
+	background-image: url(../images/actor-wave.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 75vh;
+	margin-top: 5rem;
+	color: white;
+}
+
+.actor-container {
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 10rem;
-	font-family: "droid_sansregular";
-	color: #796357;
-	font-size: 1.5rem;
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: repeat(auto, 4);
 }
 
 .actor-heading {
+	grid-column: 1 / span 2;
+	grid-row: 1;
+	font-family: "Polly Rounded";
+	letter-spacing: -0.04em;
+	font-size: 3rem;
+	margin-top: 13rem;
+	margin-bottom: 3rem;
+}
+
+.actor-text {
+	grid-column: 2;
+	grid-row: 2;
+}
+.actor-title {
 	font-family: "Polly Rounded";
 	letter-spacing: -0.04em;
 	font-size: 3rem;
 }
 
+.actor-subtitle {
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+	font-family: "Modulus";
+	font-weight: bold;
+}
+
 .actor-copy {
+	grid-column: 2;
+	grid-row: 3;
 	font-size: 1.5rem;
+}
+
+.actor-img {
+	grid-column: 1;
+	grid-row: 2 / span 3;
+	font-size: 1.5rem;
+}
+
+.actor-img img {
+	width: 88%;
 }
