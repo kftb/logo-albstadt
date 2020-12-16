@@ -1,0 +1,65 @@
+.principles {
+	background-image: url(../images/principle-wave.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 95vh;
+	margin-top: 10rem;
+	color: white;
+}
+
+.principles-container {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: repeat(auto, 5);
+}
+
+#principle1 {
+	grid-area: principle1;
+}
+
+.principles-heading {
+	grid-column: 1 / span 2;
+	grid-row: 1;
+	font-family: "Polly Rounded";
+	letter-spacing: -0.04em;
+	font-size: 3rem;
+	margin-top: 10rem;
+	margin-bottom: 3rem;
+}
+
+.principles-text {
+	grid-column: 2;
+	grid-row: 2;
+}
+.principles-title {
+	font-family: "Polly Rounded";
+	letter-spacing: -0.04em;
+	font-size: 3rem;
+}
+
+.principles-subtitle {
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+	font-family: "Modulus";
+	font-weight: bold;
+}
+
+.principles-copy {
+	font-size: 1.5rem;
+}
+
+.principles-img {
+	font-size: 1.5rem;
+	fill: white;
+	justify-self: baseline;
+	margin-bottom: 4rem;
+	margin-right: 0;
+	justify-self: right;
+}
+
+.principles-img img {
+	width: 50%;
+}
