@@ -1,0 +1,43 @@
+.process {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: grid;
+	grid-template-columns: 10% 90%;
+	grid-template-rows: repeat(auto, 5);
+	color: #796357;
+}
+
+.process-heading {
+	grid-column: 1 / span 2;
+	grid-row: 1;
+	font-family: "Polly Rounded";
+	letter-spacing: -0.04em;
+	font-size: 3rem;
+
+	margin-bottom: 3rem;
+}
+
+.process-number {
+	background: #ac968f;
+	border-radius: 1.8em;
+	-moz-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin-right: 5px;
+	text-align: center;
+	width: 1.6em;
+	margin-bottom: 3rem;
+}
+
+.process-copy {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.process-copy li {
+	margin-bottom: 1rem;
+}
