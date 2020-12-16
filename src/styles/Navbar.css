@@ -12,7 +12,6 @@
 	height: 5rem;
 }
 .navbar-sticky {
-	background: #333;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -41,6 +40,11 @@
 	font-size: 1.2rem;
 	margin-right: 4rem;
 	margin-left: 5rem;
+}
+
+.navbar-link a {
+	color: #796357;
+	text-decoration: none;
 }
 
 .navbar-link-item {
