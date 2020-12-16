@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Obfuscate from "react-obfuscate";
+import { Link } from "gatsby";
 import "../../styles/Footer.css";
 
 export default class Footer extends Component {
@@ -46,9 +47,15 @@ export default class Footer extends Component {
 					<hr></hr>
 					<div className='footer-bottom'>
 						<ul className='footer-link'>
-							<li className='footer-link-item'>Kontakt</li>
-							<li className='footer-link-item'>Impressum</li>
-							<li className='footer-link-item'>Datenschutz</li>
+							<li className='footer-link-item'>
+								<Link to='/'>Kontakt</Link>
+							</li>
+							<li className='footer-link-item'>
+								<Link to='/impressum'>Impressum</Link>
+							</li>
+							<li className='footer-link-item'>
+								<Link to='/impressum'>Datenschutz</Link>
+							</li>
 						</ul>
 					</div>
 				</div>
