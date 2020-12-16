@@ -46,9 +46,9 @@ export default class Footer extends Component {
 					<hr></hr>
 					<div className='footer-bottom'>
 						<ul className='footer-link'>
-							<li className='navbar-link-item'>Kontakt</li>
-							<li className='navbar-link-item'>Impressum</li>
-							<li className='navbar-link-item'>Datenschutz</li>
+							<li className='footer-link-item'>Kontakt</li>
+							<li className='footer-link-item'>Impressum</li>
+							<li className='footer-link-item'>Datenschutz</li>
 						</ul>
 					</div>
 				</div>
