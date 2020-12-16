@@ -9,6 +9,7 @@ import Features from "../components/Features/Features";
 import Actor from "../components/Actor/Actor";
 import CTA from "../components/CTA/CTA";
 import Footer from "../components/Footer/Footer";
+import Directions from "./Directions/Directions";
 
 export default class App extends Component {
 	render() {
@@ -20,6 +21,7 @@ export default class App extends Component {
 				<Features />
 				<Actor />
 				<CTA />
+				<Directions />
 				<Footer />
 			</div>
 		);

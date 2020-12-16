@@ -1,0 +1,22 @@
+.directions {
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #796357;
+}
+
+.directions-title {
+	font-family: "Polly Rounded";
+	letter-spacing: -0.04em;
+	font-size: 3rem;
+	margin-top: 10rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.directions img {
+	align-self: center;
+}
+
+.directions-copy {
+	font-size: 1.5rem;
+}
