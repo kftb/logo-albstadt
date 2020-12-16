@@ -5,7 +5,7 @@ export default class Navbar extends Component {
 	render() {
 		return (
 			<div>
-				<nav className='navbar'>
+				<nav className='navbar-sticky'>
 					<img
 						className='navbar-logo'
 						src={require("../images/logoalbstadt.svg")}
