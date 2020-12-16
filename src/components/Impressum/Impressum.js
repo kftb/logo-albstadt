@@ -47,7 +47,7 @@ export default class Impressum extends Component {
 						XXX
 					</p>
 					<p>
-						<h2>Haftungsausschluss: </h2>
+						<h2>Haftungsausschluss</h2>
 						<h3>Haftung für Inhalte</h3>
 						Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für
 						die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können
