@@ -6,6 +6,7 @@ import Hero from "../components/Hero/Hero";
 import Quote from "./Quote/Quote";
 import Features from "../components/Features/Features";
 import Actor from "../components/Actor/Actor";
+import CTA from "../components/CTA/CTA";
 
 export default class App extends Component {
 	render() {
@@ -16,6 +17,7 @@ export default class App extends Component {
 				<Quote />
 				<Features />
 				<Actor />
+				<CTA />
 			</div>
 		);
 	}
