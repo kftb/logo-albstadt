@@ -1,0 +1,16 @@
+.simpletext {
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #796357;
+}
+
+.simpletext-heading {
+	font-family: "Polly Rounded";
+	letter-spacing: -0.04em;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.simpletext-copy {
+	font-size: 1.5rem;
+}

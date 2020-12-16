@@ -17,7 +17,24 @@ export default class Therapieablauf extends Component {
 			<div>
 				<Navbar />
 				<Intro />
-				<SimpleText />
+				<SimpleText
+					heading='Was ist Logopädie?'
+					copy={[
+						<p>
+							Die Logopädie behandelt die Bereiche Stimme, Sprechen, Sprache wie
+							auch Schlucken. Hier beschäftigen wir uns mit der Theorie und
+							Praxis von Prävention (Vorbeugung), Beratung, Diagnostik, Therapie
+							und Rehabilitation.{" "}
+						</p>,
+						<p>
+							Logopäden und Logopädinnen sind darin ausgebildet eine Sprach-,
+							Sprech-, Stimm- oder auch Schluckstörung festzustellen und sie zu
+							behandeln. Sie diagnostizieren und therapieren auf der Grundlage
+							einer Heilmittelverordnung (ärztl. Verordnung) und beraten die
+							Patienten und deren Angehörigen."
+						</p>,
+					]}
+				/>
 				<Principles />
 				<Process />
 				<Footer />
