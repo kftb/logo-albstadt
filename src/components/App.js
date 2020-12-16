@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "../components/Navbar";
