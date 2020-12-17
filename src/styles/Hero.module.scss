@@ -5,7 +5,7 @@
 	height: 75vh;
 }
 
-.hero-quote {
+.heroQuote {
 	display: grid;
 	grid-template-columns: 50% 50% 50% 50%;
 	grid-template-rows: 50% 50%;
@@ -13,7 +13,7 @@
 	height: 100%;
 }
 
-.hero-quote-title {
+.heroQuoteTitle {
 	grid-column: 2;
 	grid-row: 1;
 	justify-items: center;
@@ -24,7 +24,7 @@
 	color: #5f4e45;
 }
 
-.hero-quote-subtitle {
+.heroQuoteSubtitle {
 	grid-column: 2;
 	grid-row: 2;
 	justify-items: center;
