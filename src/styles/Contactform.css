@@ -22,6 +22,13 @@ input[type="checkbox"] {
 	margin-right: 0.5rem;
 }
 
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+	padding: 1rem;
+}
+
 .container {
 	width: 80%;
 	max-width: 1200px;
