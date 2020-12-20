@@ -35,7 +35,7 @@ export default class Footer extends Component {
 						<div className='footer-right'>
 							<div className='footer-heading'>Kontakt & Termine</div>
 							<div className='footer-copy'>
-								07432/123456
+								<Obfuscate tel='07432 / 123 456' />
 								<br></br>
 								<br></br>
 								<Obfuscate email='praxis@logoalbstadt.de' />

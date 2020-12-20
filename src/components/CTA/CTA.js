@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "gatsby";
 import "../../styles/CTA.css";
+import Obfuscate from "react-obfuscate";
 
 export default class Actor extends Component {
 	render() {
@@ -10,11 +12,16 @@ export default class Actor extends Component {
 					Möchten Sie gerne einen Termin vereinbaren, rufen Sie uns gerne an!
 					<br></br>
 					<br></br>
-					<strong>07431 / 123 456 </strong>
+					<strong>
+						<Obfuscate tel='07432 / 123 456' />
+					</strong>
 					<br></br>
 					<br></br>
-					Alternativ kontaktieren Sie uns gerne über unser Kontaktformular und
-					wir melden uns umgehend bei Ihnen!
+					Alternativ kontaktieren Sie uns gerne über unser{" "}
+					<Link to='/kontact'>
+						<span className='cta-contact'>Kontaktformular</span>
+					</Link>{" "}
+					und wir melden uns umgehend bei Ihnen!
 				</div>
 			</div>
 		);
