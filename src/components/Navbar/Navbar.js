@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
-
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/Navbar.css";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Link } from "gatsby";
 
 if (typeof window !== "undefined") {
 	// eslint-disable-next-line global-require
@@ -10,40 +11,39 @@ if (typeof window !== "undefined") {
 	});
 }
 
-export default class Navbar extends Component {
-	render() {
-		return (
-			<div>
-				<nav className='navbar-sticky'>
-					<Link to='/'>
-						<img
-							alt=''
-							className='navbar-logo'
-							src={require("../../images/logoalbstadt.svg")}
-						/>
+export default function App() {
+	return (
+		<Navbar collapseOnSelect expand='md' bg='white' variant='light'>
+			<Navbar.Brand href='#home'>
+				<img
+					alt=''
+					className='navbar-logo'
+					src={require("../../images/logoalbstadt.svg")}
+				/>
+			</Navbar.Brand>
+			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+			<Navbar.Collapse id='responsive-navbar-nav'>
+				<Nav className='ml-4'>
+					<Link className='nav-link' to='/#fokus'>
+						Unser Praxisfokus
 					</Link>
-					<ul className='navbar-link'>
-						<li className='navbar-link-item'>
-							<Link to='/#features'>Unser Praxisfokus</Link>
-						</li>
-						<li className='navbar-link-item'>
-							<Link to='/#actor'>Unser Team</Link>
-						</li>
-						<li className='navbar-link-item'>
-							<Link to='/#cta'>Termin & Öffnungszeiten</Link>
-						</li>
-						<li className='navbar-link-item'>
-							<Link to='/therapieablauf'>Therapieablauf</Link>
-						</li>
-						<li className='navbar-link-item'>
-							<Link to='/#directions'>Anfahrt</Link>
-						</li>
-						<li className='navbar-link-item'>
-							<Link to='/kontakt'>Kontakt</Link>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		);
-	}
+					<Link className='nav-link' to='/#team'>
+						Unser Team
+					</Link>
+					<Link className='nav-link' to='/#termin'>
+						Termin & Öffnungszeiten
+					</Link>
+					<Link className='nav-link' to='/therapieablauf'>
+						Therapieablauf
+					</Link>
+					<Link className='nav-link' to='/#anfahrt'>
+						Anfahrt
+					</Link>
+					<Link className='nav-link' to='/kontakt'>
+						Kontakt
+					</Link>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
+	);
 }
