@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Obfuscate from "react-obfuscate";
 import { Link } from "gatsby";
+
 import "../../styles/Footer.css";
 
 export default class Footer extends Component {

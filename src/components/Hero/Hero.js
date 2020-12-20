@@ -4,7 +4,7 @@ import heroStyles from "../../styles/Hero.module.scss";
 export default class Hero extends Component {
 	render() {
 		return (
-			<div className={heroStyles["hero"]}>
+			<div className={heroStyles["hero"]} id='hero'>
 				<div className={heroStyles["heroQuote"]}>
 					<div className={heroStyles["heroQuoteTitle"]}>logo albstadt</div>
 					<div className={heroStyles["heroQuoteSubtitle"]}>

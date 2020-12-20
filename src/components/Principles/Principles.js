@@ -4,7 +4,7 @@ import "../../styles/Principles.css";
 export default class Principles extends Component {
 	render() {
 		return (
-			<div className='principles'>
+			<div className='principles' id='principles'>
 				<div className='principles-container'>
 					<div className='principles-heading'>Unsere Praxisphilosophie</div>
 

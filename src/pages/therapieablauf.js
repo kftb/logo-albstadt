@@ -18,6 +18,7 @@ export default class Therapieablauf extends Component {
 				<Navbar />
 				<Intro />
 				<SimpleText
+					sectionid='whatislogo'
 					heading='Was ist Logopädie?'
 					copy={[
 						<p>

@@ -3,6 +3,13 @@ import { Link } from "gatsby";
 
 import "../styles/Navbar.css";
 
+if (typeof window !== "undefined") {
+	// eslint-disable-next-line global-require
+	require("smooth-scroll")('a[href*="#"]', {
+		offset: 120,
+	});
+}
+
 export default class Navbar extends Component {
 	render() {
 		return (
@@ -14,19 +21,19 @@ export default class Navbar extends Component {
 					/>
 					<ul className='navbar-link'>
 						<li className='navbar-link-item'>
-							<Link to='/'>Unser Praxisfokus</Link>
+							<Link to='/#features'>Unser Praxisfokus</Link>
 						</li>
 						<li className='navbar-link-item'>
-							<Link to='/'>Unser Team</Link>
+							<Link to='/#actor'>Unser Team</Link>
 						</li>
 						<li className='navbar-link-item'>
-							<Link to='/'>Termin & Öffnungszeiten</Link>
+							<Link to='/#cta'>Termin & Öffnungszeiten</Link>
 						</li>
 						<li className='navbar-link-item'>
 							<Link to='/therapieablauf'>Therapieablauf</Link>
 						</li>
 						<li className='navbar-link-item'>
-							<Link to='/'>Anfahrt</Link>
+							<Link to='/#directions'>Anfahrt</Link>
 						</li>
 						<li className='navbar-link-item'>
 							<Link to='/kontakt'>Kontakt</Link>
