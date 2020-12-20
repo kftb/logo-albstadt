@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
 
-import "../styles/Navbar.css";
+import "../../styles/Navbar.css";
 
 if (typeof window !== "undefined") {
 	// eslint-disable-next-line global-require
@@ -17,7 +17,7 @@ export default class Navbar extends Component {
 				<nav className='navbar-sticky'>
 					<img
 						className='navbar-logo'
-						src={require("../images/logoalbstadt.svg")}
+						src={require("../../images/logoalbstadt.svg")}
 					/>
 					<ul className='navbar-link'>
 						<li className='navbar-link-item'>
