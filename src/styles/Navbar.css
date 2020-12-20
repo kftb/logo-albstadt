@@ -57,3 +57,14 @@
 .navbar-link a:hover {
 	color: rgb(179, 74, 14);
 }
+
+.nav-link a:hover {
+	color: rgb(179, 74, 14);
+}
+
+.navbar-toggler {
+	margin-top: 0;
+}
+.nav-link a {
+	color: #796357;
+}
