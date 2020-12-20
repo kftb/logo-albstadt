@@ -1,4 +1,8 @@
 .hero {
+	width: 100%;
+}
+
+.heroImg {
 	background-image: url(../images/hero-wave.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -6,30 +10,38 @@
 }
 
 .heroQuote {
-	display: grid;
-	grid-template-columns: 50% 50% 50% 50%;
-	grid-template-rows: 50% 50%;
 	width: 100%;
 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+	padding-bottom: 15%;
 }
 
 .heroQuoteTitle {
-	grid-column: 2;
-	grid-row: 1;
-	justify-items: center;
-	align-self: end;
+	flex-basis: 100%;
+	text-align: center;
 	font-size: 7em;
 	font-family: "modulusregular";
 	font-weight: bold;
 	color: #5f4e45;
+	margin-bottom: 0;
 }
 
 .heroQuoteSubtitle {
-	grid-column: 2;
-	grid-row: 2;
-	justify-items: center;
-	align-self: start;
 	font-size: 2em;
 	font-family: "droid_sansregular";
 	color: #796357;
+}
+
+@media only screen and (max-width: 600px) {
+	.heroQuoteTitle {
+		font-size: 12vw;
+	}
+
+	.heroQuoteSubtitle {
+		font-size: 4vw;
+	}
 }
