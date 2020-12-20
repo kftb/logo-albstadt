@@ -4,7 +4,7 @@ import "../../styles/Actor.css";
 export default class Actor extends Component {
 	render() {
 		return (
-			<div className='actor' id='actor'>
+			<div className='actor' id='team'>
 				<div className='actor-container'>
 					<div className='actor-heading'>Ihre Logopädin bei logo albstadt</div>
 					<div className='actor-img'>

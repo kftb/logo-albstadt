@@ -17,6 +17,9 @@ export default class Kontaktformular extends Component {
 				<br></br>
 				<br></br>
 				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
 				<SimpleText
 					heading='Kontaktformular'
 					copy={[

@@ -6,7 +6,7 @@ import Obfuscate from "react-obfuscate";
 export default class Actor extends Component {
 	render() {
 		return (
-			<div className='cta' id='cta'>
+			<div className='cta' id='termin'>
 				<div className='cta-heading'>Wir freuen uns auf Ihren Anruf</div>
 				<div className='cta-copy'>
 					Möchten Sie gerne einen Termin vereinbaren, rufen Sie uns gerne an!

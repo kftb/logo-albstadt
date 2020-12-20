@@ -4,7 +4,7 @@ import "../../styles/Directions.css";
 export default class Directions extends Component {
 	render() {
 		return (
-			<div className='directions' id='directions'>
+			<div className='directions' id='anfahrt'>
 				<div className='directions-title'>So finden Sie uns</div>
 				<img alt='' src={require("../../images/anfahrt.png")} />
 				<div className='directions-copy'>

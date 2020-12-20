@@ -6,7 +6,7 @@ import "../../styles/Features.css";
 export default class Features extends Component {
 	render() {
 		return (
-			<div className='features' id='features'>
+			<div className='features' id='fokus'>
 				<div className='features-heading'>Unser Praxisfokus</div>
 				<div className='features-copy'>
 					Wir behandeln Patienten allen Alters, haben uns jedoch verstärkt auf

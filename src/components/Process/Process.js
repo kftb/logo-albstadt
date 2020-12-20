@@ -4,7 +4,7 @@ import "../../styles/Process.css";
 export default class Process extends Component {
 	render() {
 		return (
-			<div className='process' id='process'>
+			<div className='process' id='ablauf'>
 				<div className='process-heading'>
 					Wie läuft eine Therapie bei logo albstadt ab?
 				</div>
