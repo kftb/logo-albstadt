@@ -1,6 +1,5 @@
 module.exports = {
 	plugins: [
-		"gatsby-plugin-netlify-cms",
 		{
 			resolve: "gatsby-plugin-google-analytics",
 			options: {
@@ -9,7 +8,7 @@ module.exports = {
 		},
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-image",
-		"gatsby-plugin-mdx",
+
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
 		{
