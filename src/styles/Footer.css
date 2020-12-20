@@ -1,34 +1,38 @@
 .footer {
 	background-image: url(../images/footer-wave.png);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	height: 45vh;
 	margin-top: 10rem;
 	color: white;
 	padding-top: 1px;
+	display: flex;
 }
 
 .footer-container {
+	width: 100%;
+	margin-bottom: 1rem;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 12rem;
+	align-self: flex-end;
 }
 
 .footer-top {
 	display: grid;
 	grid-template-columns: repeat(auto, 3);
+	grid-template-areas: "left middle right";
 }
 
 .footer-left {
-	grid-column: 1;
+	grid-area: left;
 }
 
 .footer-middle {
-	grid-column: 2;
+	grid-area: middle;
 }
 
 .footer-right {
-	grid-column: 3;
+	grid-area: right;
 }
 
 .footer-heading {
@@ -64,4 +68,21 @@ hr {
 .footer-container a {
 	text-decoration: none;
 	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	.footer {
+		background: none;
+		background-color: #ac968f;
+		height: auto;
+	}
+
+	.footer-top {
+		padding-top: 2rem;
+		gap: 1rem;
+		grid-template-columns: repeat(auto, 2);
+		grid-template-areas:
+			"left middle"
+			"right .";
+	}
 }

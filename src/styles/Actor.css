@@ -3,8 +3,11 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 75vh;
-	margin-top: 5rem;
 	color: white;
+	padding-top: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .actor-container {
@@ -12,22 +15,23 @@
 	margin-right: 10%;
 	display: grid;
 	grid-template-columns: 25% 75%;
-	grid-template-rows: repeat(auto, 4);
+	grid-template-rows: repeat(auto, 3);
+	grid-template-areas:
+		"heading heading"
+		"img text"
+		"img copy";
 }
 
 .actor-heading {
-	grid-column: 1 / span 2;
-	grid-row: 1;
+	grid-area: heading;
 	font-family: "Polly Rounded";
 	letter-spacing: -0.04em;
 	font-size: 3rem;
-	margin-top: 13rem;
 	margin-bottom: 3rem;
 }
 
 .actor-text {
-	grid-column: 2;
-	grid-row: 2;
+	grid-area: text;
 }
 .actor-title {
 	font-family: "Polly Rounded";
@@ -45,17 +49,49 @@
 }
 
 .actor-copy {
-	grid-column: 2;
-	grid-row: 3;
+	grid-area: copy;
+
 	font-size: 1.5rem;
 }
 
 .actor-img {
-	grid-column: 1;
-	grid-row: 2 / span 3;
+	grid-area: img;
 	font-size: 1.5rem;
 }
 
 .actor-img img {
 	width: 88%;
+}
+
+@media only screen and (max-width: 600px) {
+	.actor {
+		background-size: cover;
+	}
+
+	.actor-container {
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		display: grid;
+		grid-template-columns: 40% 60%;
+		grid-template-rows: repeat(auto, 4);
+		grid-template-areas:
+			"heading"
+			"img text"
+			"img copy";
+	}
+
+	.actor-heading {
+		font-size: 6vw;
+	}
+	.actor-title {
+		font-size: 5vw;
+	}
+	.actor-subtitle {
+		font-size: 4vw;
+	}
+	.actor-img img {
+		width: 50%;
+	}
 }
