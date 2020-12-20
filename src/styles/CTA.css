@@ -24,11 +24,11 @@
 }
 
 .cta-contact {
-	color: rgb(179, 74, 14);
+	color: #b34a0e;
 	text-decoration: none;
 }
 
 .cta-contact:hover {
-	color: rgb(107, 44, 8);
+	color: #6b2c08;
 	text-decoration: none;
 }
