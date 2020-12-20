@@ -11,9 +11,7 @@ export default class Contactform extends Component {
 		return (
 			<div class='container'>
 				<form class='contact-grid' onSubmit={this.handleSubmit}>
-					<label id='name' for='name'>
-						Vor- und Nachname
-					</label>
+					<label for='name'>Vor- und Nachname</label>
 					<input id='namebox' type='text' id='name' placeholder='Ihr Name' />
 
 					<label for='email'>Email-Adresse</label>

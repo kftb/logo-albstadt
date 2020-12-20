@@ -6,10 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import Intro from "../components/Intro/Intro";
 import SimpleText from "../components/SimpleText/SimpleText";
-import Process from "../components/Process/Process";
-import Principles from "../components/Principles/Principles";
 import Contactform from "../components/Contactform/Contactform";
 
 export default class Kontaktformular extends Component {

@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import "../../styles/SimpleText.css";
 
 export default class SimpleText extends Component {
-	constructor(props) {
-		super(props);
-	}
 	render() {
 		return (
 			<div className='simpletext' id={this.props.sectionid}>

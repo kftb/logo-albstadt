@@ -12,6 +12,7 @@ export default class Principles extends Component {
 						<img
 							style={{ "grid-column": 1, "grid-row": 1 }}
 							src={require("../../images/piece1.svg")}
+							alt=''
 						/>
 					</div>
 					<div
@@ -28,6 +29,7 @@ export default class Principles extends Component {
 						<img
 							style={{ "grid-column": 1, "grid-row": 2 }}
 							src={require("../../images/piece3.svg")}
+							alt=''
 						/>
 					</div>
 					<div
@@ -45,6 +47,7 @@ export default class Principles extends Component {
 						<img
 							style={{ "grid-column": 1, "grid-row": 2 }}
 							src={require("../../images/piece2.svg")}
+							alt=''
 						/>
 					</div>
 					<div
@@ -63,6 +66,7 @@ export default class Principles extends Component {
 						<img
 							style={{ "grid-column": 1, "grid-row": 2 }}
 							src={require("../../images/piece4.svg")}
+							alt=''
 						/>
 					</div>
 					<div

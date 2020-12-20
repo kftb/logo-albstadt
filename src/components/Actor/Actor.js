@@ -8,7 +8,7 @@ export default class Actor extends Component {
 				<div className='actor-container'>
 					<div className='actor-heading'>Ihre Logopädin bei logo albstadt</div>
 					<div className='actor-img'>
-						<img src={require("../../images/vivian.png")} />
+						<img src={require("../../images/vivian.png")} alt='' />
 					</div>
 					<div classname='actor-text'>
 						<div className='actor-title'>Vivian Bay</div>

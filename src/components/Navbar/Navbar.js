@@ -17,6 +17,7 @@ export default class Navbar extends Component {
 				<nav className='navbar-sticky'>
 					<Link to='/'>
 						<img
+							alt=''
 							className='navbar-logo'
 							src={require("../../images/logoalbstadt.svg")}
 						/>
