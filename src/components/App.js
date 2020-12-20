@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { Link } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Quote from "./Quote/Quote";
 import Features from "../components/Features/Features";
 import Actor from "../components/Actor/Actor";
 import CTA from "../components/CTA/CTA";
-import Footer from "../components/Footer/Footer";
+import Footer from "./Footer/Footer";
 import Directions from "./Directions/Directions";
 
 export default class App extends Component {
