@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Subfeature from "./Subfeature.js";
+import { Link } from "gatsby";
 import "../../styles/Features.css";
 
 export default class Features extends Component {
@@ -43,6 +44,22 @@ export default class Features extends Component {
 						</ul>
 					}
 				/>
+				<br />
+				<div>
+					Detailliertere Informationen zur Logopädie, unseren Therapieprinzipien
+					und dem typischen Ablauf einer Therapie{" "}
+					<Link
+						style={{
+							color: "#b34a0e",
+							"&:hover": { color: "#6b2c08" },
+							"text-decoration": "none",
+						}}
+						to='/therapieablauf'
+					>
+						{" "}
+						finden Sie hier.
+					</Link>
+				</div>
 			</div>
 		);
 	}
