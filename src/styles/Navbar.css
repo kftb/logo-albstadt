@@ -53,3 +53,7 @@
 	cursor: pointer;
 	color: #796357;
 }
+
+.navbar-link a:hover {
+	color: rgb(179, 74, 14);
+}

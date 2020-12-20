@@ -17,3 +17,18 @@
 .cta-copy {
 	font-size: 1.5rem;
 }
+
+.cta a {
+	text-decoration: none;
+	color: #796357;
+}
+
+.cta-contact {
+	color: rgb(179, 74, 14);
+	text-decoration: none;
+}
+
+.cta-contact:hover {
+	color: rgb(107, 44, 8);
+	text-decoration: none;
+}
