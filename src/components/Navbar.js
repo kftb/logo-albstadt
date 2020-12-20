@@ -23,7 +23,7 @@ export default class Navbar extends Component {
 							<Link to='/'>Termin & Öffnungszeiten</Link>
 						</li>
 						<li className='navbar-link-item'>
-							<Link to='/'>Therapieablauf</Link>
+							<Link to='/therapieablauf'>Therapieablauf</Link>
 						</li>
 						<li className='navbar-link-item'>
 							<Link to='/'>Anfahrt</Link>
