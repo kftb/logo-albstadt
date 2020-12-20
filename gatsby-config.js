@@ -27,6 +27,29 @@ module.exports = {
 			},
 			__key: "pages",
 		},
+		{
+			resolve: "gatsby-source-filesystem",
+			options: {
+				name: "fonts",
+				path: `${__dirname}/src/fonts`,
+			},
+			__key: "fonts",
+		},
+		{
+			resolve: "gatsby-plugin-web-font-loader",
+			options: {
+				custom: {
+					families: [
+						"modulusregular",
+						"modulusbold",
+						"polly_roundedlight",
+						"polly_roundedregular",
+						"Polly Rounded",
+					],
+					urls: [`${__dirname}/src/fonts/stylesheet.css`],
+				},
+			},
+		},
 		"gatsby-plugin-sass",
 	],
 };
