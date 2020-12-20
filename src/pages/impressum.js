@@ -4,7 +4,7 @@ import "../styles/index.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import Impressum from "../components/Impressum/Impressum";
 import Footer from "../components/Footer/Footer";
 
