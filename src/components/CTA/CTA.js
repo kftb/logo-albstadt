@@ -18,7 +18,7 @@ export default class Actor extends Component {
 					<br></br>
 					<br></br>
 					Alternativ kontaktieren Sie uns gerne über unser{" "}
-					<Link to='/kontact'>
+					<Link to='/kontakt'>
 						<span className='cta-contact'>Kontaktformular</span>
 					</Link>{" "}
 					und wir melden uns umgehend bei Ihnen!
