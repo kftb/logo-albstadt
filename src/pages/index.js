@@ -40,34 +40,6 @@ const linkStyles = {
 	color: "#8954A8",
 };
 
-// data
-const links = [
-	{
-		text: "Documentation",
-		url: "https://www.gatsbyjs.com/docs/",
-	},
-	{
-		text: "Tutorials",
-		url: "https://www.gatsbyjs.com/tutorial/",
-	},
-	{
-		text: "Guides",
-		url: "https://www.gatsbyjs.com/tutorial/",
-	},
-	{
-		text: "API Reference",
-		url: "https://www.gatsbyjs.com/docs/api-reference/",
-	},
-	{
-		text: "Plugin Library",
-		url: "https://www.gatsbyjs.com/plugins",
-	},
-	{
-		text: "Cheat Sheet",
-		url: "https://www.gatsbyjs.com/docs/cheat-sheet/",
-	},
-];
-
 // markup
 const IndexPage = () => {
 	return <App />;
