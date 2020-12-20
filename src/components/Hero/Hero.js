@@ -1,14 +1,16 @@
 import React, { Component } from "react";
-import heroStyles from "../../styles/Hero.module.scss";
+import "../../styles/Hero.css";
 
 export default class Hero extends Component {
 	render() {
 		return (
-			<div className={heroStyles["hero"]} id='hero'>
-				<div className={heroStyles["heroQuote"]}>
-					<div className={heroStyles["heroQuoteTitle"]}>logo albstadt</div>
-					<div className={heroStyles["heroQuoteSubtitle"]}>
-						die logopädische Praxis für Jung und Alt in Albstadt
+			<div className='hero' id='hero'>
+				<div className='heroImg'>
+					<div className='heroQuote'>
+						<div className='heroQuoteTitle'>logo albstadt</div>
+						<div className='heroQuoteSubtitle'>
+							die logopädische Praxis für Jung und Alt in Albstadt
+						</div>
 					</div>
 				</div>
 			</div>

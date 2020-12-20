@@ -6,9 +6,8 @@ export default class Quote extends Component {
 		return (
 			<div className='quote'>
 				<div className='quote-container'>
-					<span className='quote-symbol'>"</span>
 					<div className='quote-title'>
-						Das Menschlichste, was wir haben, ist die Sprache.
+						"Das Menschlichste, was wir haben, ist die Sprache."
 					</div>
 					<br></br>
 					<div className='quote-author'>Theodore Fontane</div>

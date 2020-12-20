@@ -2,12 +2,14 @@
 	display: grid;
 	grid-template-columns: 25% 75%;
 	grid-template-rows: repeat(auto, 3);
+	grid-template-areas:
+		"img heading"
+		"img copy";
 	margin-top: 3rem;
 }
 
 .subfeature-img {
-	grid-column: 1;
-	grid-row: 1 / span 2;
+	grid-area: img;
 }
 
 .subfeature-img img {
@@ -20,9 +22,32 @@
 	grid-row: 1;
 	column-span: 2;
 	font-weight: bold;
+	grid-area: heading;
 }
 
 .subfeature-copy {
 	grid-column: 2;
 	grid-row: 2;
+	grid-area: copy;
+}
+
+@media only screen and (max-width: 600px) {
+	.subfeature {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(auto, 3);
+		grid-template-areas:
+			"img"
+			"heading"
+			"copy";
+
+		gap: 1rem;
+	}
+
+	.subfeature-img {
+		grid-column: 1;
+		grid-row: 1;
+		grid-area: "img";
+		width: 75%;
+	}
 }
