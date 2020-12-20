@@ -15,10 +15,12 @@ export default class Navbar extends Component {
 		return (
 			<div>
 				<nav className='navbar-sticky'>
-					<img
-						className='navbar-logo'
-						src={require("../../images/logoalbstadt.svg")}
-					/>
+					<Link to='/'>
+						<img
+							className='navbar-logo'
+							src={require("../../images/logoalbstadt.svg")}
+						/>
+					</Link>
 					<ul className='navbar-link'>
 						<li className='navbar-link-item'>
 							<Link to='/#features'>Unser Praxisfokus</Link>
