@@ -7,6 +7,7 @@ module.exports = {
 				trackingId: "G-GXLGZWRPWT",
 			},
 		},
+		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-image",
 		"gatsby-plugin-mdx",
 		"gatsby-plugin-sharp",

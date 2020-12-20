@@ -24,6 +24,7 @@
     "gatsby-plugin-mdx": "^1.6.0",
     "gatsby-plugin-netlify-cms": "^4.6.0",
     "gatsby-plugin-postcss": "^3.3.0",
+    "gatsby-plugin-react-helmet": "^3.7.0",
     "gatsby-plugin-sass": "^2.8.0",
     "gatsby-plugin-sharp": "^2.10.1",
     "gatsby-source-filesystem": "^2.7.0",
@@ -34,6 +35,8 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",
-    "react-obfuscate": "^3.6.8"
+    "react-helmet": "^6.1.0",
+    "react-obfuscate": "^3.6.8",
+    "smooth-scroll": "^16.1.3"
   }
 }
