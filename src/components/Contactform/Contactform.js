@@ -10,7 +10,11 @@ export default class Contactform extends Component {
 	render() {
 		return (
 			<div class='container'>
-				<form class='contact-grid' onSubmit={this.handleSubmit}>
+				<form
+					class='contact-grid'
+					onSubmit={this.handleSubmit}
+					data-netlify='true'
+				>
 					<label for='name'>Vor- und Nachname</label>
 					<input id='namebox' type='text' id='name' placeholder='Ihr Name' />
 
