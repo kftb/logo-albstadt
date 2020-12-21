@@ -4,17 +4,17 @@ import "../styles/index.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "../components/Navbar/Navbar";
 import Impressum from "../components/Impressum/Impressum";
-import Footer from "../components/Footer/Footer";
+
+import Layout from "../components/layouts/Layout";
 
 export default class impressum extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar />
-				<Impressum />
-				<Footer />
+				<Layout>
+					<Impressum />
+				</Layout>
 			</div>
 		);
 	}

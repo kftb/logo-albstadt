@@ -14,8 +14,8 @@ export default class Quote extends Component {
 					<div className='quote-copy'>
 						Nichts verbindet uns mehr als Sprache. Wir bei{" "}
 						<strong>logo albstadt</strong> haben es uns zum Ziel gemacht,
-						Patienten jeden Alters zu helfen, Einschränkungen der Sprach-,
-						Sprech-, Stimm- und Schluckfähigkeit zu lösen oder abzumildern.
+						Patienten jeden Alters zu helfen, Einschränkungen der Sprech-,
+						Sprach-, Stimm- und Schluckfähigkeit zu lösen oder abzumildern.
 					</div>
 				</div>
 			</div>
