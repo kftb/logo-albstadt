@@ -7,8 +7,7 @@ export default class Intro extends Component {
 			<div className='intro'>
 				<div className='intro-container'>
 					<div className='intro-title'>
-						<span className='quote-symbol'>"</span>
-						Sprache gehört zum Charakter des Menschen
+						"Sprache gehört zum Charakter des Menschen"
 					</div>
 					<div className='intro-author'>Francis Bacon</div>
 				</div>
