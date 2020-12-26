@@ -1,25 +1,39 @@
 .actor {
-	background-image: url(../images/actor-wave.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 75vh;
+	width: 100%;
 	color: white;
+	margin-top: 5rem;
+}
+
+.actor-container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	display: grid;
+
+	grid-template-columns: 25% 75%;
+	grid-template-areas:
+		"heading heading"
+		"img text"
+		"img cv"
+		"cert cert";
+}
+
+.actor-top {
+	width: 100%;
+}
+
+.actor-middle {
 	padding-top: 1px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	background-image: url(../images/actor-wave-v6_middle.svg);
 }
 
-.actor-container {
-	margin-left: 10%;
-	margin-right: 10%;
-	display: grid;
-	grid-template-columns: 25% 75%;
-	grid-template-rows: repeat(auto, 3);
-	grid-template-areas:
-		"heading heading"
-		"img text"
-		"img copy";
+.actor-bottom {
+	width: 100%;
 }
 
 .actor-heading {
@@ -28,11 +42,23 @@
 	letter-spacing: -0.04em;
 	font-size: 3rem;
 	margin-bottom: 3rem;
+	word-spacing: -0.4rem;
 }
 
 .actor-text {
 	grid-area: text;
 }
+
+.actor-cv {
+	grid-area: cv;
+	font-size: 1.5rem;
+}
+
+.actor-cert {
+	grid-area: cert;
+	font-size: 1.5rem;
+}
+
 .actor-title {
 	font-family: "Polly Rounded";
 	letter-spacing: -0.04em;
@@ -49,14 +75,13 @@
 }
 
 .actor-copy {
-	grid-area: copy;
-
 	font-size: 1.5rem;
 }
 
 .actor-img {
 	grid-area: img;
 	font-size: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 .actor-img img {
@@ -69,29 +94,39 @@
 	}
 
 	.actor-container {
-		margin-left: 10%;
-		margin-right: 10%;
-		padding-top: 10%;
-		padding-bottom: 10%;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 2%;
+		padding-bottom: 5%;
 		display: grid;
-		grid-template-columns: 40% 60%;
+		grid-template-columns: 100%;
 		grid-template-rows: repeat(auto, 4);
 		grid-template-areas:
 			"heading"
-			"img text"
-			"img copy";
+			"img"
+			"text"
+			"cv"
+			"cert";
 	}
 
-	.actor-heading {
-		font-size: 6vw;
-	}
-	.actor-title {
-		font-size: 5vw;
-	}
-	.actor-subtitle {
-		font-size: 4vw;
-	}
 	.actor-img img {
 		width: 50%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.actor-container {
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-top: -6%;
+		margin-bottom: -3%;
+		grid-template-areas:
+			"heading heading"
+			"img text"
+			"img cv"
+			"img cert";
+	}
+
+	.actor-img img {
 	}
 }
