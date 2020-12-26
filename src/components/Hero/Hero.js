@@ -9,7 +9,7 @@ export default class Hero extends Component {
 					<div className='heroQuote'>
 						<div className='heroQuoteTitle'>logo albstadt</div>
 						<div className='heroQuoteSubtitle'>
-							die logopädische Praxis für Jung und Alt in Albstadt
+							Ihre logopädische Praxis in Albstadt
 						</div>
 					</div>
 				</div>
