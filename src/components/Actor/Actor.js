@@ -91,9 +91,11 @@ export default class Actor extends Component {
 								besonders wichtig. Diesen und weitere Grundsätze bilden die
 								Basis für eine logopädische Therapie. <br></br>
 								<br></br>Finden Sie{" "}
-								<Link to='/therapieablauf'>hier mehr Informationen</Link> zu
-								meiner meiner Praxisphilosophie und dem typischen Ablauf einer
-								Therapie bei Logo Albstadt.
+								<Link to='/therapieablauf' className='internal-link'>
+									hier mehr Informationen
+								</Link>{" "}
+								zu meiner meiner Praxisphilosophie und dem typischen Ablauf
+								einer Therapie bei Logo Albstadt.
 							</p>
 						</div>
 					</div>
