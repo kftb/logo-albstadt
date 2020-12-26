@@ -19,8 +19,8 @@ export default class Features extends Component {
 					copy='Bei Kinder und Jugendlichen fokussiert sich die Behandlungs besonders oft auf Auffälligkeiten/Störungen, die sich aus der Sprachentwicklung ergeben haben. Bei logo albstadt haben wir u.a. Erfahrung mit den folgenden Störungsbildern: '
 					list={
 						<ul>
-							<li>
-								Sprache
+							<li className='subfeature-level1'>
+								<strong>Sprache</strong>
 								<ul>
 									<li>Sprachentwicklungsverzögerungen (SEV) </li>
 									<li>Auffälligkeiten in der Grammatik (Dysgrammatismus) </li>
@@ -30,8 +30,8 @@ export default class Features extends Component {
 									<li>Wortschatzdefizite (z.B. Late Talker) </li>
 								</ul>
 							</li>
-							<li>
-								Sprechen
+							<li className='subfeature-level1'>
+								<strong>Sprechen</strong>
 								<ul>
 									<li>Stottern (XXX Fachbegriff) </li>
 									<li>Poltern (XXX Fachbegriff) </li>
@@ -41,15 +41,15 @@ export default class Features extends Component {
 									</li>
 								</ul>
 							</li>
-							<li>
+							<li className='subfeature-level1'>
 								<strong>Stimme</strong>
 								<ul>
 									<li>Unvollständiger Stimmbruch (XXX Fachbegriff)</li>
 									<li>Stimmlippenknötchen (XXX Begriff) </li>
 								</ul>
 							</li>
-							<li>
-								Schlucken
+							<li className='subfeature-level1'>
+								<strong>Schlucken</strong>
 								<ul>
 									<li>Muskelungleichgewicht (Myofunktionelle Störung) </li>
 									<li>Frühkindliche Schluckstörungen</li>
@@ -71,9 +71,51 @@ export default class Features extends Component {
 				behandelt werden können.'
 					list={
 						<ul>
-							<li>Sprachentwicklungsstörung</li>
-							<li>Störung des Lauterwerbs (phonologische Störung)</li>
-							<li>Störung des Wortschatzes</li>
+							<li className='subfeature-level1'>
+								<strong>Sprache</strong>
+								<ul>
+									<li>
+										Sprachstörungen nach Schlaganfällen oder durch andere
+										neurologische Erkrankungen (Aphasie)
+									</li>
+									<li>Demenz</li>
+								</ul>
+							</li>
+							<li className='subfeature-level1'>
+								<strong>Sprechen</strong>
+								<ul>
+									<li>Störung der Sprechmotorik/der Stimme (Dysarthrie)</li>
+									<li>Störung der Sprechplanung (Sprechapraxie)</li>
+									<li>Stottern (XXX Fachbegriff) </li>
+									<li>Poltern (XXX Fachbegriff) </li>
+									<li>
+										Einschränkungen durch Gesichtslähmungen (Fazialisparesen)
+									</li>
+								</ul>
+							</li>
+							<li className='subfeature-level1'>
+								<strong>Stimme</strong>
+								<ul>
+									<li>
+										andauernde/dauerhafte Heiserkeit oder raue, behauchte Stimme
+										(Funktionelle Stimmstörung)
+									</li>
+									<li>
+										Organische Stimmstörung aufgrund einer OP oder Erkrankung
+										(z.B. Stimmknötchen, Reinke-Ödem){" "}
+									</li>
+									<li>Psychogene Stimmstörung</li>
+								</ul>
+							</li>
+							<li className='subfeature-level1'>
+								<strong>Schlucken</strong>
+								<ul>
+									<li>
+										Dysphagie nach einer OP, Schlaganfall oder neurologischen
+										Erkrankungen{" "}
+									</li>
+								</ul>
+							</li>
 						</ul>
 					}
 				/>
