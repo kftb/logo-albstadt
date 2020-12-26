@@ -37,10 +37,14 @@ export default class Footer extends Component {
 							<div className='footer-copy'>
 								<Obfuscate tel='07432 / 123 456' />
 								<br></br>
+							</div>
+							<div className='footer-copy'>
 								<br></br>
 								<Obfuscate email='praxis@logoalbstadt.de' />
 								<br />
-								Kontaktformular
+								<Link to='/kontakt'>
+									<span style={{ color: "white" }}>Kontaktformular</span>
+								</Link>{" "}
 							</div>
 						</div>
 					</div>
@@ -49,7 +53,7 @@ export default class Footer extends Component {
 					<div className='footer-bottom'>
 						<ul className='footer-link'>
 							<li className='footer-link-item'>
-								<Link to='/'>Kontakt</Link>
+								<Link to='/kontakt'>Kontakt</Link>
 							</li>
 							<li className='footer-link-item'>
 								<Link to='/impressum'>Impressum</Link>
