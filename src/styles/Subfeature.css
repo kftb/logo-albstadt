@@ -31,6 +31,12 @@
 	grid-area: copy;
 }
 
+.subfeature-level1 {
+	margin-top: 1rem;
+	list-style: none;
+	padding-left: 0;
+}
+
 @media only screen and (max-width: 600px) {
 	.subfeature {
 		display: grid;
