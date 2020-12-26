@@ -14,10 +14,17 @@
 }
 
 .directions img {
-	text-align: center;
+	display: block;
+	margin: 0 auto;
 	width: 80vw;
 }
 
 .directions-copy {
 	font-size: 1.5rem;
+}
+
+@media (min-width: 1500px) {
+	.directions img {
+		width: 65vw;
+	}
 }

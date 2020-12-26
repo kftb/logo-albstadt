@@ -1,7 +1,7 @@
 .quote {
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 3rem;
+	margin-top: 10rem;
 	font-family: "droid_sans";
 	color: #ac968f;
 }
@@ -32,4 +32,11 @@
 	display: inline-block;
 	text-align: left;
 	margin-top: 4rem;
+}
+
+@media (min-width: 1200px) {
+	.quote-author {
+		text-align: center;
+		margin-top: 2rem;
+	}
 }

@@ -45,3 +45,13 @@
 		font-size: 4vw;
 	}
 }
+
+@media only screen and (min-width: 1200px) {
+	.heroQuoteTitle {
+		font-size: 7vw;
+	}
+
+	.heroQuoteSubtitle {
+		font-size: 2vw;
+	}
+}
