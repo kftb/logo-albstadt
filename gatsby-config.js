@@ -1,8 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		title: "Logo Albstadt",
+		title: "logo albstadt",
 
-		description: "Logo Albstadt - die logopädische Praxis in Albstadt",
+		description: "logo albstadt - die logopädische Praxis in Albstadt",
 		url: "https://www.logoalbstadt.de", // No trailing slash allowed!
 		image: "/images/logoalbstadt.png", // Path to your image you placed in the 'static' folder
 		author: "Vivian Bay",
