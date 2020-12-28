@@ -21,7 +21,7 @@ const SEO = ({ title, description, image, article }) => {
 		description: description || defaultDescription,
 		image: `${siteUrl}${image || defaultImage}`,
 		url: `${siteUrl}${pathname}`,
-		keywords: keywords || [
+		keywords: [
 			"Logopädie",
 			"logopaedie",
 			"sprachtherapie",
@@ -31,7 +31,7 @@ const SEO = ({ title, description, image, article }) => {
 		],
 	};
 
-	const keywords = seo.keywords.join(",");
+	const keywords_gatsby = seo.keywords.join(",");
 
 	return (
 		<Helmet title={seo.title}>
@@ -47,7 +47,7 @@ const SEO = ({ title, description, image, article }) => {
 			)}
 
 			{seo.image && <meta property='og:image' content={seo.image} />}
-			<meta property='keywords' content={keywords} />
+			<meta property='keywords' content={keywords_gatsby} />
 		</Helmet>
 	);
 };
