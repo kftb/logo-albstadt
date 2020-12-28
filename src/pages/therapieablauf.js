@@ -8,7 +8,7 @@ import Intro from "../components/Intro/Intro";
 import SimpleText from "../components/SimpleText/SimpleText";
 import Process from "../components/Process/Process";
 import Principles from "../components/Principles/Principles";
-import Layout from "../components/layouts/Layout";
+import Layout from "../layouts/Layout";
 
 export default class Therapieablauf extends Component {
 	render() {
@@ -24,14 +24,20 @@ export default class Therapieablauf extends Component {
 								Die Logopädie behandelt die Bereiche Stimme, Sprechen, Sprache
 								wie auch Schlucken. Hier beschäftigen wir uns mit der Theorie
 								und Praxis von Prävention (Vorbeugung), Beratung, Diagnostik,
-								Therapie und Rehabilitation.{" "}
+								Therapie und Rehabilitation von Sprach-, Sprech-, Stimm- und
+								Schluckstörungen.{" "}
 							</p>,
 							<p>
-								Logopäden und Logopädinnen sind darin ausgebildet eine Sprach-,
-								Sprech-, Stimm- oder auch Schluckstörung festzustellen und sie
-								zu behandeln. Sie diagnostizieren und therapieren auf der
-								Grundlage einer Heilmittelverordnung (ärztl. Verordnung) und
-								beraten die Patienten und deren Angehörigen."
+								LogopädInnen sind darin ausgebildet diese Störungen
+								festzustellen und sie zu behandeln. Sie diagnostizieren und
+								therapieren auf der Grundlage einer Heilmittelverordnung
+								(ärztliche Verordnung) und beraten die Patienten und deren
+								Angehörigen.
+							</p>,
+							<p>
+								Bei logo albstadt haben wir Erfahrung mit allen gängigen
+								Störungsbildern und behandeln sowohl Kinder- und Jugendliche,
+								wie auch Erwachsene und SeniorInnen.
 							</p>,
 						]}
 					/>

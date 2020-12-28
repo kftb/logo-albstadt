@@ -11,7 +11,7 @@ export default class Directions extends Component {
 					<br></br>
 					<br></br>
 					<div className='directions-copy'>
-						<strong>Logo Albstadt - Praxis für Logopädie</strong>
+						<strong>logo albstadt - Praxis für Logopädie</strong>
 						<br></br>
 						Talstraße 3<br></br>
 						72461 Albstadt-Onstmettingen
@@ -29,17 +29,20 @@ export default class Directions extends Component {
 					<br></br>
 					<strong>Von Bisingen/Stich/Langenwand kommend</strong>
 					<p>
-						Sie folgen wieder der Hauptstraße, auf der rechten Seite beim Peter
-						Müller kommt eine Bushaltestelle nach dieser fahren Sie die Straße
-						links Richtung Heuberg ein. Dort finden Sie uns auf der rechten
-						Seite im mittleren Haus.
+						Sie folgen der Hauptstraße in Richtung Tailfingen bis kurz vor
+						Ortsausgang Onstmettingen. Noch vor der OMV Tankstelle befindet sich
+						auf der rechten Seite die Firma Peter Müller sowie das
+						Richtungsschild "Hohberg". Biegen Sie links ab und Sie befinden sich
+						in der Talstraße, wo Sie die Praxis im mittleren Haus finden.
 					</p>
 					<br />
 					<strong>Parkmöglichkeiten</strong>
-					<p>Um die Praxis herum gibt es mehrere Parkmöglichkeiten:</p>
+					<p>
+						In unmittelbarer Nähe der Praxis gibt es mehrere Parkmöglichkeiten:
+					</p>
 					<ul>
 						<li>Direkt vor der Praxis</li>
-						<li>Gegenüber der Praxis (vom Gebüsch nach hinten) </li>
+						<li>Gegenüber der Praxis</li>
 						<li>
 							In der Wilhelmstraße (direkt um die Ecke schräg gegenüber vom Club
 							Kate)

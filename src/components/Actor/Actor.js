@@ -47,8 +47,8 @@ export default class Actor extends Component {
 									Staatlich-anerkannte Logopädin mit mehr als 5 Jahren Erfahrung
 								</li>
 								<li>
-									<strong>Seit 2021:</strong> Gründung der eigenen Praxis "Logo
-									Albstadt" in Albstadt-Onstmettingen
+									<strong>Seit 2021:</strong> Gründung der eigenen Praxis{" "}
+									<strong>logo albstadt</strong> in Albstadt-Onstmettingen
 								</li>
 								<li>
 									<strong>2015-2020:</strong> Festangestellte Logopädin in der
@@ -68,19 +68,29 @@ export default class Actor extends Component {
 							</ul>
 							<strong>Fortbildungen</strong>
 							<ul>
-								<li>Therapie der SES nach Dr. Zvi Penner</li>
 								<li>
-									TAKTKIN®-Therapie (Behandlung sprechmotorischer Störungen)
+									Therapie der Sprachentwicklungsstörung nach Dr. Zvi Penner
+									(Kon-Lab)
 								</li>
 								<li>
-									Logo meets Physio: Interdisziplinäre Zusammenarbeit bei
-									frühgeborenen Kindern und Säuglingen
+									Diagnostik und Therapie von Schluckstörungen (Dysphagie)
+								</li>
+
+								<li>
+									Anwendung von Physiotherapie-Elementen in der logopädischen
+									Behandlung von frühgeborenen Säuglingen
 								</li>
 								<li>Frühlesemethode für Patienten mit Down-Syndrom</li>
+								<li>Diagnostik, Prognose und Intervention bei „Late Talker“</li>
+								<li>
+									Anwendung der "Logo Digital"-Software zur Förderung der
+									Schreib- und Sprachkompetenz
+								</li>
+								<li>Best Practices des Tapings zum Einsatz in der Logopädie</li>
 							</ul>
 							<p>
 								In den vergangenen fünf Jahren als Logopädin durfte ich mehr als
-								200 Patienten betreuen und habe in dieser Zeit alle gängigen
+								400 Patienten betreuen und habe in dieser Zeit alle gängigen
 								Störungsbilder behandelt. Bereits in meiner Zeit bei Susanne
 								Konrad habe ich mich vermehrt auf Kinder- und Jugendliche
 								spezialisiert, einen Fokus den ich nun in meiner eigenen Praxis
@@ -95,7 +105,7 @@ export default class Actor extends Component {
 									hier mehr Informationen
 								</Link>{" "}
 								zu meiner meiner Praxisphilosophie und dem typischen Ablauf
-								einer Therapie bei Logo Albstadt.
+								einer Therapie bei logo albstadt.
 							</p>
 						</div>
 					</div>

@@ -40,10 +40,15 @@ export default class Principles extends Component {
 							style={{ "grid-column": 2, "grid-row": 2 }}
 							className='principles-copy'
 						>
-							<strong>Ganzkörperliche Arbeit</strong>
+							<strong>Individuell</strong>
 							<br />
-							Wir arbeiten nicht nur an dem Problem selbst sondern schauen uns
-							den ganzen Körper mit an
+							In der Logopädie sehen wir immer wieder ähnliche Störungsbilder,
+							diese können jedoch nur optimal behandelt werden, wenn die
+							Therapie individuell auf den Patienten abgestimmt ist. Diese Idee
+							bildet den Grundsatz bei logo albstadt. Dies bedeutet, dass wir
+							vor Therapiebeginn einen umfänglichen und persönlichen
+							Therapieplan erstellen und passen diesen kontinuierlich an den
+							wirklichen Therapieverlauf an.
 						</div>
 
 						<div className='principles-img'>
@@ -57,13 +62,17 @@ export default class Principles extends Component {
 							style={{ "grid-column": 2, "grid-row": 2 }}
 							className='principles-copy'
 						>
-							<strong>Transparenz</strong>
+							<strong>Zielsetzung</strong>
 							<br />
-							In der Therapie erklären wir den Patienten immer ganz genau wieso
-							und warum wir diese Übung oder Aufgaben machen und zu welchen
-							Zwecken sie dienen. Offene Kommunikation ist sehr wichtig in der
-							Therapie um das Ziel zu erreichen.
+							Der wichtigste Bestandteil des Therapieplans ist für uns das
+							individuelle Ziel eines jeden Patienten. Dieses besprechen wir
+							stets zu Beginn einer Therapie und übersetzen es dann in konkrete
+							Meilensteine, Therapieeinheiten und Übungen. Dies ist insbesondere
+							wichtig, da die Logopädie unzählige Behandlungsmöglichkeiten und
+							-techniken bietet, deren Erfolg maßgeblich vom Patienten abhängig
+							ist.
 						</div>
+
 						<div className='principles-img'>
 							<img
 								style={{ "grid-column": 1, "grid-row": 2 }}
@@ -75,14 +84,17 @@ export default class Principles extends Component {
 							style={{ "grid-column": 2, "grid-row": 2 }}
 							className='principles-copy'
 						>
-							<strong>Zielsetzung</strong>
+							<strong>Transparenz</strong>
 							<br />
-							Wir besprechen zu Beginn der Therapie bestimmte Ziele, die der
-							Patient wie auch der Therapeut erreichen wollen. Wir suchen stets
-							nach Lösungen um Probleme die bei Übungen oder Aufgaben auftauchen
-							aus dem Weg zu schaffen, sodass der Patient schnellstmöglich zu
-							seinem Ziel kommt.
+							Den Überblick im Wirrwarr von Ärzten, Therapeuten und unzähligen
+							medizinischen Begriffen zu behalten, ist nicht leicht und kann
+							schnell frustrieren. Deswegen nehmen wir uns bei logo albstadt
+							besonders viel Zeit, um jeden Therapieschritt, jede Übung und
+							jeden Fachbegriff verständlich zu erklären. Patienten können uns
+							auch auf diese Weise besser Rückmeldung geben und so den
+							Therapieerfolg verbessern.
 						</div>
+
 						<div className='principles-img'>
 							<img
 								style={{ "grid-column": 1, "grid-row": 2 }}
@@ -90,19 +102,21 @@ export default class Principles extends Component {
 								alt=''
 							/>
 						</div>
+
 						<div
 							style={{ "grid-column": 2, "grid-row": 2 }}
 							className='principles-copy'
 						>
-							<strong>Individuell</strong>
+							<strong>Ganzheitlich</strong>
 							<br />
-							Jeder Patient bekommt eine individuelle Therapie, wir achten
-							zusätzlich darauf, dass wir den Patienten dort abholen, wo er
-							geradesteht. Dass heißt, geht es einem Patienten in der Therapie
-							mal nicht gut (Grund egal) wird die vorgeplante Therapie so
-							umstrukturiert, dass sie für die heutige Einheit zum Ziel führt
-							und der Patienten mit einem guten/besseren Gefühl die Praxis
-							verlässt
+							Es wird oftmals angenommen, dass die Ursachen für logopädische
+							Störungsbilder allein neurologische Gründe haben oder aus
+							Einschränkungen im Gesichts- und Halsbereich stammen. Wir bei logo
+							albstadt nehmen stattdessen eine ganzheitliche Betrachtung des
+							Patienten vor und berücksichtigen u.a. andere körperliche
+							Einschränkungen wie Muskelverspannungen sowie psychologische
+							Einflüsse wie Stress. Dafür haben wir besondere Fortbildungen
+							absolviert und können unseren Patienten so optimal helfen.
 						</div>
 					</div>
 				</div>

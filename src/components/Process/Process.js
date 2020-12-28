@@ -18,23 +18,29 @@ export default class Process extends Component {
 					style={{ "grid-column": 2, "grid-row": 3 }}
 					className='process-copy'
 				>
-					<strong>Verordnung</strong>
+					<strong>Feststellung / Vorstellung beim Arzt</strong>
 					<ul>
 						<li>
-							Wenn Sie selbst oder ihr Kind das Gefühl haben oder auch der
-							Kindergarten/Schule/Krankenhaus oder das Rehazentrum, dass eine
-							logopädische Behandlung notwendig ist, sollte sie sich zunächst an
-							ihren zuständigen Arzt wenden und dies besprechen.
+							Wenn sprachliche Auffälligkeiten oder Einschränkungen durch
+							Angehörige, Eltern oder Erziehern festgestellt werden, sollten Sie
+							sich zunächst an Ihren behandelnden Arzt wenden und dies gemeinsam
+							besprechen.
 						</li>
 						<li>
-							Wird ein logopädisches Rezept ausgestellt, können Sie sich hier
-							bei mir in der Praxis telefonisch oder per Kontaktformular auf der
-							Website anmelden/ einen Termin vereinbaren.{" "}
+							Sollte die Notwendigkeit einer logopädischen Therapie vorhanden
+							sein, erhalten Sie von Ihrem Arzt ein logopädisches Rezept, von
+							uns auch "Heilmittelverordnung" genannt.
 						</li>
 						<li>
-							Können Sie persönlich nicht in die Praxis kommen, führe ich auch
-							Hausbesuche durch, dies muss auf der Verordnung vom Arzt vermerkt
-							sein.
+							Sobald Sie dieses Rezept in Aussicht oder erhalten haben, freuen
+							wir uns über Ihren Anruf oder Ihre Nachricht über unser
+							Kontaktformular (LINK!!!!), um einen Termin zu finden und die
+							Therapie zu beginnen.
+						</li>
+						<li>
+							Können Sie nicht persönlich in die Praxis kommen, führen wir auch
+							gerne Hausbesuche durch. Bitte beachte Sie, dass dies jedoch auf
+							dem Rezept vom Arzt vermerkt sein muss.
 						</li>
 					</ul>
 				</div>
@@ -46,21 +52,26 @@ export default class Process extends Component {
 					2
 				</div>
 				<div
-					style={{ "grid-column": 2, "grid-row": 3 }}
+					style={{ "grid-column": 2, "grid-row": 4 }}
 					className='process-copy'
 				>
 					<strong>Erstgespräch / Diagnostik </strong>
 					<ul>
 						<li>
-							Beim Erstgespräch führe ich erstmal ein Anamnesegespräch mit ihnen
-							durch, um Ihren Ist-Zustand und die aktuellen Schwierigkeiten
-							festzustellen. Darüber hinaus führe ich eine passende und
-							individuelle Diagnostik durch und bespreche mit Ihnen die weitere
-							Therapieplanung.
+							Bei unserem ersten Gespräch, auch Anamnesegespräch genannt,
+							besprechen wir gemeinsam Ihre aktuelle Situation und definieren
+							zusammen die Ziele Ihrer logopädischen Therapie. Dies wird ergänzt
+							durch eine ausführliche Diagnostik, die wir im Anschluss durch
+							spezielle Übungen durchführen.
 						</li>
 						<li>
-							Dieses Erstgespräch findet bei Kindern immer mit den Eltern oder
-							einem Elternteil statt und dauert in der Regel 45 Minuten.
+							Auf dieser Basis erstellen wir einen individuellen Therapieplan,
+							der Ihre Ziele in konkrete Therapiemethoden, -übungen und
+							-meilensteine übersetzt.
+						</li>
+						<li>
+							Das Erstgespräch findet bei Kindern immer mit einem oder beiden
+							Elternteilen statt, es dauert in der Regel 45 Minuten.
 						</li>
 					</ul>
 				</div>
@@ -71,32 +82,70 @@ export default class Process extends Component {
 					3
 				</div>
 				<div
-					style={{ "grid-column": 2, "grid-row": 3 }}
+					style={{ "grid-column": 2, "grid-row": 5 }}
 					className='process-copy'
 				>
-					<strong>Behandlungsdauer / Behandlungskosten</strong>
+					<strong>Behandlung / Behandlungsdauer</strong>
 					<ul>
 						<li>
-							Die Behandlungsdauer ist vom verordnenden Arzt festgelegt.
-							Zunächst wird meist ein Diagnostikrezept mit 3 Einheiten oder
-							gleich eins mit 10 Einheiten ausgestellt.
+							Die Behandlungsdauer einer logopädischen Therapie wird
+							üblicherweise vom verordnenden Arzt durch das Rezept festgelegt.
+							Dieses kann entweder ein Diagnostikrezept mit drei Einheiten oder
+							sogleich ein logopädisches Rezept mit zehn Einheiten umfassen.
 						</li>
 						<li>
-							Die Dauer der Therapiestunde ist abhängig von Störungsbild und
-							liegen zwischen 30, 45 und 60 Minuten. Im Normalfall sind es 45
-							Minuten.
+							Die Dauer der Therapiestunde ist abhängig vom Störungsbild und
+							liegt bei 30, 45 oder 60 Minuten.
 						</li>
 						<li>
-							Patienten sind ab dem 18 Lebensjahr grundsätzlich
-							Zuzahlungspflichtig.
+							Eltern können gerne während der Therapieeinheit in der Praxis
+							warten oder die Zeit anderweitig nutzen, z.B. für Erledigungen in
+							nahegelegenden Geschäften.
 						</li>
 						<li>
-							Mit Privatpatienten wird vor der Therapie ein Vertrag
-							abgeschlossen. Ich empfehle Ihnen bei der zuständigen Krankenkasse
-							mittels des Kostenvoranschlags, den Sie von mir bekommen, die
-							Kostenübernahme abzuklären.
+							Sollte eine Verlängerung der Therapie sinnvoll sein, kann diese
+							mit einem weiteren Rezept selbstverständlich verlängert werden.
 						</li>
 					</ul>
+				</div>
+				<div
+					style={{ "grid-column": 1, "grid-row": 2 }}
+					className='process-number'
+				>
+					4
+				</div>
+				<div
+					className='process-copy'
+					style={{ "grid-column": 2, "grid-row": 6 }}
+				>
+					<strong>Behandlungskosten</strong>
+					<p>
+						<ul>
+							<li>
+								Eine logopädische Therapie ist grundsätzlich eine von den
+								gesetzlichen Krankenkassen getragene Leistung, die mit einer
+								Zuzahlung des Patienten unterstützt wird.
+							</li>
+							<li>
+								Eine Zuzahlung ist grundsätzlich bei Patienten ab dem 18.
+								Lebensjahr notwendig.
+							</li>
+							<li>
+								Mit Privatpatienten wird vor der Therapie ein Vertrag
+								abgeschlossen. Ich empfehle Ihnen bei der zuständigen
+								Krankenkasse mittels eines Kostenvoranschlags die
+								Kostenübernahme vor Beginn der Therapie abzuklären. Einen
+								Kostenvoranschlag und einen entsprechenden Antrag erhalten Sie
+								gerne von uns.
+							</li>
+						</ul>
+					</p>
+				</div>
+				<div
+					className='process-copy'
+					style={{ "grid-column": 2, "grid-row": 6 }}
+				>
+					Kommen Sie bei weiteren Fragen gerne jederzeit auf uns zu.
 				</div>
 			</div>
 		);

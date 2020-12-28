@@ -16,7 +16,7 @@ export default class Features extends Component {
 				<Subfeature
 					img={require("../../images/kids.png")}
 					heading='Kinder und Jugendliche'
-					copy='Bei Kinder und Jugendlichen fokussiert sich die Behandlungs besonders oft auf Auffälligkeiten/Störungen, die sich aus der Sprachentwicklung ergeben haben. Bei logo albstadt haben wir u.a. Erfahrung mit den folgenden Störungsbildern: '
+					copy='Bei Kinder und Jugendlichen fokussiert sich die Behandlung besonders oft auf Auffälligkeiten/Störungen, die sich aus der Sprachentwicklung ergeben haben. Bei logo albstadt haben wir u.a. Erfahrung mit den folgenden Störungsbildern: '
 					list={
 						<ul>
 							<li className='subfeature-level1'>
@@ -33,19 +33,20 @@ export default class Features extends Component {
 							<li className='subfeature-level1'>
 								<strong>Sprechen</strong>
 								<ul>
-									<li>Stottern (XXX Fachbegriff) </li>
-									<li>Poltern (XXX Fachbegriff) </li>
+									<li>Stottern / Poltern (Redeflussstörung)</li>
+
 									<li>
 										Unkorrekte oder nicht altersentsprechende Artikulation oder
 										Verwendung eines Lautes (phonetische/phonologische Störung)
 									</li>
+									<li>Hörwahrnehmungsstörungen (AVWS)</li>
 								</ul>
 							</li>
 							<li className='subfeature-level1'>
 								<strong>Stimme</strong>
 								<ul>
-									<li>Unvollständiger Stimmbruch (XXX Fachbegriff)</li>
-									<li>Stimmlippenknötchen (XXX Begriff) </li>
+									<li>Unvollständiger Stimmbruch (Mutationsstimmstörung)</li>
+									<li>Stimmlippenknötchen (Dysphonie)</li>
 								</ul>
 							</li>
 							<li className='subfeature-level1'>
@@ -64,11 +65,8 @@ export default class Features extends Component {
 				/>
 				<Subfeature
 					img={require("../../images/seniors.png")}
-					heading='Senioren und Seniorinnen'
-					copy='Dies ist ein beschreibender Text, der aussagt, wie die Praxis
-                besonders auf Kinder und Jugendliche ausgerichtet ist. Die folgende
-                Liste gibt einen Überblick über alle Störungsbilder, die in der Praxis
-				behandelt werden können.'
+					heading='Erwachsene und SeniorInnen'
+					copy='Bei der Behandlung von Erwachsenen und SeniorInnen liegt der Schwerpunkt besonders auf der Wiederherstellung von Sprach-, Sprech-, Stimm- und Schluckfähigkeiten, die aufgrund von Krankheit oder Unfall eingeschränkt worden sind.'
 					list={
 						<ul>
 							<li className='subfeature-level1'>
@@ -78,7 +76,7 @@ export default class Features extends Component {
 										Sprachstörungen nach Schlaganfällen oder durch andere
 										neurologische Erkrankungen (Aphasie)
 									</li>
-									<li>Demenz</li>
+									<li>Altersbedingte Demenz</li>
 								</ul>
 							</li>
 							<li className='subfeature-level1'>
@@ -86,10 +84,11 @@ export default class Features extends Component {
 								<ul>
 									<li>Störung der Sprechmotorik/der Stimme (Dysarthrie)</li>
 									<li>Störung der Sprechplanung (Sprechapraxie)</li>
-									<li>Stottern (XXX Fachbegriff) </li>
-									<li>Poltern (XXX Fachbegriff) </li>
+									<li>Stottern / Poltern (Redeflussstörung) </li>
+
 									<li>
-										Einschränkungen durch Gesichtslähmungen (Fazialisparesen)
+										Einschränkungen durch Gesichtslähmungen (Fazialis- und
+										Hypoglossusparese)
 									</li>
 								</ul>
 							</li>
@@ -97,22 +96,22 @@ export default class Features extends Component {
 								<strong>Stimme</strong>
 								<ul>
 									<li>
-										andauernde/dauerhafte Heiserkeit oder raue, behauchte Stimme
-										(Funktionelle Stimmstörung)
+										Andauernde/dauerhafte Heiserkeit oder raue, behauchte Stimme
+										(Dysphonie)
 									</li>
 									<li>
 										Organische Stimmstörung aufgrund einer OP oder Erkrankung
 										(z.B. Stimmknötchen, Reinke-Ödem){" "}
 									</li>
-									<li>Psychogene Stimmstörung</li>
+									<li>Psychogene Stimmstörung (Aphonie)</li>
 								</ul>
 							</li>
 							<li className='subfeature-level1'>
 								<strong>Schlucken</strong>
 								<ul>
 									<li>
-										Dysphagie nach einer OP, Schlaganfall oder neurologischen
-										Erkrankungen{" "}
+										Schluckstörungen nach einer OP, Schlaganfall oder
+										neurologischen Erkrankungen (Dysphagie){" "}
 									</li>
 								</ul>
 							</li>
