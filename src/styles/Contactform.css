@@ -31,7 +31,7 @@ textarea:focus {
 
 textarea,
 input[type="text"],
-input[type="email"],
+input[type="emailbox"],
 input[type="tel"] {
 	padding: 1rem;
 }
@@ -42,11 +42,16 @@ input[type="tel"] {
 	margin: 0 auto;
 	font-size: 1.5rem;
 	color: #796357;
-	padding: 50px 0;
+	padding: 0 0;
+	padding-top: 2rem;
 }
 
 .container * {
 	box-sizing: border-box;
+}
+
+label {
+	font-weight: 700;
 }
 
 button {
@@ -57,6 +62,44 @@ button {
 	border-radius: 2px;
 	grid-column: 1 / span 2;
 	margin-top: 2rem;
+}
+
+#name {
+	grid-area: name;
+}
+#namebox {
+	grid-area: namebox;
+}
+#email {
+	grid-area: email;
+}
+#emailbox {
+	grid-area: emailbox;
+}
+#phone {
+	grid-area: phone;
+}
+#phonebox {
+	grid-area: phonebox;
+}
+#message {
+	grid-area: message;
+}
+#messagebox {
+	grid-area: messagebox;
+}
+#days {
+	grid-area: days;
+}
+#daysbox {
+	grid-area: daysbox;
+}
+#times {
+	grid-area: times;
+}
+
+#timesbox {
+	grid-area: timesbox;
 }
 
 .contact-grid {
@@ -80,4 +123,29 @@ button {
 }
 .contact-list input {
 	margin-right: 1rem;
+}
+
+@media (max-width: 800px) {
+	.contact-grid {
+		gap: 0;
+		text-align: left;
+		grid-template-columns: 100%;
+		grid-template-areas:
+			"name"
+			"namebox"
+			"email"
+			"emailbox"
+			"phone"
+			"phonebox"
+			"message"
+			"messagebox"
+			"days"
+			"daysbox"
+			"times"
+			"timesbox";
+	}
+	label {
+		padding-top: 2rem;
+		font-weight: 700;
+	}
 }

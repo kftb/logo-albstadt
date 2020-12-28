@@ -10,29 +10,39 @@ export default class Contactform extends Component {
 	render() {
 		return (
 			<div class='container'>
-				<form
-					class='contact-grid'
-					onSubmit={this.handleSubmit}
-					data-netlify='true'
-				>
-					<label for='name'>Vor- und Nachname</label>
-					<input id='namebox' type='text' id='name' placeholder='Ihr Name' />
+				<form class='contact-grid' data-netlify='true' method='POST'>
+					<label id='name' for='name'>
+						Vor- und Nachname
+					</label>
+					<input id='namebox' type='text' placeholder='Ihr Name' />
 
-					<label for='email'>Email-Adresse</label>
-					<input type='email' id='email' placeholder='Ihre Email-Adresse' />
+					<label id='email' for='email'>
+						E-Mail-Adresse
+					</label>
+					<input
+						type='emailbox'
+						id='emailbox'
+						placeholder='Ihre E-Mail-Adresse'
+					/>
 
-					<label for='phone'>Telefonnummer</label>
-					<input type='tel' id='phone' placeholder='Ihre Telefonnummer' />
+					<label id='phone' for='phone'>
+						Telefonnummer
+					</label>
+					<input type='tel' id='phonebox' placeholder='Ihre Telefonnummer' />
 
-					<label for='message'>Nachricht</label>
+					<label id='message' for='message'>
+						Nachricht
+					</label>
 					<textarea
-						rows='6'
-						id='message'
+						rows='3'
+						id='messagebox'
 						placeholder='Ihre Nachricht'
 					></textarea>
 
-					<p>Präferierte Tage</p>
-					<ul class='contact-list'>
+					<p id='days'>
+						<label>Präferierte Tage</label>
+					</p>
+					<ul id='daysbox' class='contact-list'>
 						<li>
 							<input type='checkbox' id='Monday' />
 							Montags
@@ -55,8 +65,10 @@ export default class Contactform extends Component {
 						</li>
 					</ul>
 
-					<p>Präferierte Zeiten</p>
-					<ul class='contact-list'>
+					<p id='times'>
+						<label>Präferierte Zeiten</label>
+					</p>
+					<ul id='timesbox' class='contact-list'>
 						<li>
 							<input type='checkbox' id='earlymorning' />
 							Früher vormittag (8-10 Uhr)
