@@ -1,4 +1,12 @@
 module.exports = {
+	siteMetadata: {
+		title: "Logo Albstadt",
+
+		description: "Logo Albstadt - die logopädische Praxis in Albstadt",
+		url: "https://www.logoalbstadt.de", // No trailing slash allowed!
+		image: "/images/logoalbstadt.png", // Path to your image you placed in the 'static' folder
+		author: "Vivian Bay",
+	},
 	plugins: [
 		{
 			resolve: "gatsby-plugin-google-analytics",
@@ -10,7 +18,13 @@ module.exports = {
 		"gatsby-plugin-image",
 
 		"gatsby-plugin-sharp",
-		"gatsby-transformer-sharp",
+
+		{
+			resolve: "gatsby-transformer-sharp",
+			options: {
+				icon: `${__dirname}/src/images/gatsby-icon.png`,
+			},
+		},
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
