@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Impressum from "../components/Impressum/Impressum";
 
-import Layout from "../components/layouts/Layout";
+import Layout from "../layouts/Layout";
 
 export default class impressum extends Component {
 	render() {

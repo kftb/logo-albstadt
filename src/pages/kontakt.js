@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import SimpleText from "../components/SimpleText/SimpleText";
 import Contactform from "../components/Contactform/Contactform";
-import Layout from "../components/layouts/Layout";
+import Layout from "../layouts/Layout";
 
 export default class Kontaktformular extends Component {
 	render() {
