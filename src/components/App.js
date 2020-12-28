@@ -8,7 +8,7 @@ import Features from "../components/Features/Features";
 import Actor from "../components/Actor/Actor";
 import CTA from "../components/CTA/CTA";
 import Directions from "./Directions/Directions";
-import Layout from "./layouts/Layout";
+import Layout from "../layouts/Layout";
 
 export default class App extends Component {
 	render() {
