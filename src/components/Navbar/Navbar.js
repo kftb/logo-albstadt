@@ -15,11 +15,13 @@ export default function App() {
 	return (
 		<Navbar collapseOnSelect expand='md' bg='white' variant='light'>
 			<Navbar.Brand href='#home'>
-				<img
-					alt=''
-					className='navbar-logo'
-					src={require("../../images/logoalbstadt.svg")}
-				/>
+				<Link className='nav-link' to='/'>
+					<img
+						alt=''
+						className='navbar-logo'
+						src={require("../../images/logoalbstadt.svg")}
+					/>
+				</Link>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 			<Navbar.Collapse id='responsive-navbar-nav'>
