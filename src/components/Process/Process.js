@@ -132,7 +132,7 @@ export default class Process extends Component {
 							</li>
 							<li>
 								Mit Privatpatienten wird vor der Therapie ein Vertrag
-								abgeschlossen. Ich empfehle Ihnen bei der zuständigen
+								abgeschlossen. Wir empfehlen Ihnen bei der zuständigen
 								Krankenkasse mittels eines Kostenvoranschlags die
 								Kostenübernahme vor Beginn der Therapie abzuklären. Einen
 								Kostenvoranschlag und einen entsprechenden Antrag erhalten Sie
