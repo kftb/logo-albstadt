@@ -7,7 +7,12 @@ export default class Hero extends Component {
 			<div className='hero' id='hero'>
 				<div className='heroImg'>
 					<div className='heroQuote'>
-						<div className='heroQuoteTitle'>logo albstadt</div>
+						<div className='heroQuoteTitle'>
+							<img
+								className='hero-img-logo'
+								src={require("../../images/logoalbstadt_nameonly.svg")}
+							></img>
+						</div>
 						<div className='heroQuoteSubtitle'>
 							Ihre logopädische Praxis in Albstadt
 						</div>
