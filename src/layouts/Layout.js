@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
-import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import SEO from "../components/seo";
+import SEO from "../components/SEO";
 
 export default class Layout extends Component {
 	render() {

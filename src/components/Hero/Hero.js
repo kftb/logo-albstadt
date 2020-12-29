@@ -9,6 +9,7 @@ export default class Hero extends Component {
 					<div className='heroQuote'>
 						<div className='heroQuoteTitle'>
 							<img
+								alt='logo albstadt logo'
 								className='hero-img-logo'
 								src={require("../../images/logoalbstadt_nameonly.svg")}
 							></img>
