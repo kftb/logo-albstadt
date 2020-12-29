@@ -143,7 +143,7 @@ export default class Process extends Component {
 				</div>
 				<div
 					className='process-copy'
-					style={{ "grid-column": 2, "grid-row": 6 }}
+					style={{ "grid-column": "1 / span 2", "grid-row": 6 }}
 				>
 					Kommen Sie bei weiteren Fragen gerne jederzeit auf uns zu.
 				</div>
