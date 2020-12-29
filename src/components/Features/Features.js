@@ -122,14 +122,7 @@ export default class Features extends Component {
 				<div>
 					Detailliertere Informationen zur Logopädie, unseren Therapieprinzipien
 					und dem typischen Ablauf einer Therapie{" "}
-					<Link
-						style={{
-							color: "#b34a0e",
-							"&:hover": { color: "#6b2c08" },
-							"text-decoration": "none",
-						}}
-						to='/therapieablauf'
-					>
+					<Link className='internal-link' to='/therapieablauf'>
 						{" "}
 						finden Sie hier.
 					</Link>

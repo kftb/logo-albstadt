@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../styles/Process.css";
+import { Link } from "gatsby";
 
 export default class Process extends Component {
 	render() {
@@ -34,8 +35,11 @@ export default class Process extends Component {
 						<li>
 							Sobald Sie dieses Rezept in Aussicht oder erhalten haben, freuen
 							wir uns über Ihren Anruf oder Ihre Nachricht über unser
-							Kontaktformular (LINK!!!!), um einen Termin zu finden und die
-							Therapie zu beginnen.
+							<Link to='/kontakt' className='internal-link'>
+								{" "}
+								Kontaktformular
+							</Link>{" "}
+							um einen Termin zu finden und die Therapie zu beginnen.
 						</li>
 						<li>
 							Können Sie nicht persönlich in die Praxis kommen, führen wir auch
