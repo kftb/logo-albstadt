@@ -9,11 +9,11 @@ body {
 
 .internal-link {
 	text-decoration: none !important;
-	color: #b34a0e !important;
+	color: #6b2c08 !important;
 }
 
 .internal-link:hover,
 .internal-link:link {
-	color: #6b2c08 !important;
+	color: #b34a0e !important;
 	text-decoration: none !important;
 }
