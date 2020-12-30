@@ -11,17 +11,25 @@ export default class Contactform extends Component {
 		return (
 			<div class='container'>
 				<form
-					name='Contact Form'
+					name='Kontaktformular'
 					method='POST'
 					class='contact-grid'
 					data-netlify='true'
 					method='POST'
+					action='/kontakt'
+					onSubmit={this.handleSubmit}
 				>
-					<input type='hidden' name='form-name' value='Contact Form' />
+					<input type='hidden' name='form-name' value='Kontaktformular' />
 					<label id='name' for='name'>
-						Vor- und Nachname
+						Vor- und Nachname*
 					</label>
-					<input name='name' id='namebox' type='text' placeholder='Ihr Name' />
+					<input
+						name='name'
+						id='namebox'
+						type='text'
+						placeholder='Ihr Name'
+						required
+					/>
 
 					<label id='email' for='email'>
 						E-Mail-Adresse
@@ -34,23 +42,25 @@ export default class Contactform extends Component {
 					/>
 
 					<label id='phone' for='phone'>
-						Telefonnummer
+						Telefonnummer*
 					</label>
 					<input
 						name='phone'
 						type='tel'
 						id='phonebox'
 						placeholder='Ihre Telefonnummer'
+						required
 					/>
 
 					<label id='message' for='message'>
-						Nachricht
+						Nachricht*
 					</label>
 					<textarea
 						name='message'
 						rows='3'
 						id='messagebox'
 						placeholder='Ihre Nachricht'
+						required
 					></textarea>
 
 					<p id='days'>
@@ -58,23 +68,23 @@ export default class Contactform extends Component {
 					</p>
 					<ul id='daysbox' class='contact-list'>
 						<li>
-							<input type='checkbox' id='Monday' />
+							<input name='Montag' type='checkbox' id='Monday' />
 							Montags
 						</li>
 						<li>
-							<input type='checkbox' id='Tuesday' />
+							<input type='checkbox' id='Tuesday' name='Dienstag' />
 							Dienstags
 						</li>
 						<li>
-							<input type='checkbox' id='wednesday' />
+							<input type='checkbox' id='wednesday' name='Mittwoch' />
 							Mittwochs
 						</li>
 						<li>
-							<input type='checkbox' id='thursday' />
+							<input type='checkbox' id='thursday' name='Donnerstag' />
 							Donnerstags
 						</li>
 						<li>
-							<input type='checkbox' id='friday' />
+							<input type='checkbox' id='friday' name='Freitag' />
 							Freitags
 						</li>
 					</ul>
@@ -84,22 +94,32 @@ export default class Contactform extends Component {
 					</p>
 					<ul id='timesbox' class='contact-list'>
 						<li>
-							<input type='checkbox' id='earlymorning' />
+							<input type='checkbox' id='earlymorning' name='Früher Morgen' />
 							Früher vormittag (8-10 Uhr)
 						</li>
 						<li>
-							<input type='checkbox' id='latemorning' />
+							<input type='checkbox' id='latemorning' name='Später Morgen' />
 							Später vormittag (10-12 Uhr)
 						</li>
 						<li>
-							<input type='checkbox' id='earlyafternoon' />
+							<input
+								type='checkbox'
+								id='earlyafternoon'
+								name='Früher Nachmittag'
+							/>
 							Früher nachmittag (12-15 Uhr)
 						</li>
 						<li>
-							<input type='checkbox' id='lateafternoon' />
+							<input
+								type='checkbox'
+								id='lateafternoon'
+								name='Später Nachmittag'
+							/>
 							Später nachmittag (15-18 Uhr)
 						</li>
 					</ul>
+					<div>* = erforderliches Feld</div>
+					<br />
 
 					<button type='submit'>Kontaktformular absenden</button>
 				</form>
