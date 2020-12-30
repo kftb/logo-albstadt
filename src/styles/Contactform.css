@@ -102,6 +102,10 @@ button {
 	grid-area: timesbox;
 }
 
+.required-input {
+	grid-area: requiredinput;
+}
+
 .contact-grid {
 	display: grid;
 	gap: 1rem;
@@ -114,7 +118,8 @@ button {
 		"phone phonebox"
 		"message messagebox"
 		"days daysbox"
-		"times timesbox";
+		"times timesbox"
+		"requiredinput requiredinput";
 }
 
 .contact-list li {
@@ -142,7 +147,8 @@ button {
 			"days"
 			"daysbox"
 			"times"
-			"timesbox";
+			"timesbox"
+			"requiredinput";
 	}
 	label {
 		padding-top: 2rem;

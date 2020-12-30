@@ -94,18 +94,26 @@ export default class Contactform extends Component {
 					</p>
 					<ul id='timesbox' class='contact-list'>
 						<li>
-							<input type='checkbox' id='earlymorning' name='Früher Morgen' />
+							<input
+								type='checkbox'
+								id='earlymorning'
+								name='Früher Morgen (8-10)'
+							/>
 							Früher vormittag (8-10 Uhr)
 						</li>
 						<li>
-							<input type='checkbox' id='latemorning' name='Später Morgen' />
+							<input
+								type='checkbox'
+								id='latemorning'
+								name='Später Morgen (10-12)'
+							/>
 							Später vormittag (10-12 Uhr)
 						</li>
 						<li>
 							<input
 								type='checkbox'
 								id='earlyafternoon'
-								name='Früher Nachmittag'
+								name='Früher Nachmittag (12-15)'
 							/>
 							Früher nachmittag (12-15 Uhr)
 						</li>
@@ -113,12 +121,12 @@ export default class Contactform extends Component {
 							<input
 								type='checkbox'
 								id='lateafternoon'
-								name='Später Nachmittag'
+								name='Später Nachmittag (15-18)'
 							/>
 							Später nachmittag (15-18 Uhr)
 						</li>
 					</ul>
-					<div>* = erforderliches Feld</div>
+					<div className='required-input'>* = erforderliches Feld</div>
 					<br />
 
 					<button type='submit'>Kontaktformular absenden</button>
