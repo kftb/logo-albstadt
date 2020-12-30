@@ -26,24 +26,34 @@ export default function App() {
 			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 			<Navbar.Collapse id='responsive-navbar-nav'>
 				<Nav className='ml-4'>
-					<Link className='nav-link' to='/#fokus'>
+					<Nav.Link className='nav-link' as={Link} to='/#fokus' href='/#fokus'>
 						Unser Praxisfokus
-					</Link>
-					<Link className='nav-link' to='/#team'>
+					</Nav.Link>
+					<Nav.Link className='nav-link' as={Link} to='/#team' href='/#fokus'>
 						Unser Team
-					</Link>
-					<Link className='nav-link' to='/#termin'>
+					</Nav.Link>
+					<Nav.Link className='nav-link' as={Link} to='/#termin' href='/#fokus'>
 						Termin & Öffnungszeiten
-					</Link>
-					<Link className='nav-link' to='/therapieablauf'>
+					</Nav.Link>
+					<Nav.Link
+						className='nav-link'
+						as={Link}
+						to='/therapieablauf'
+						href='/#fokus'
+					>
 						Therapieablauf
-					</Link>
-					<Link className='nav-link' to='/#anfahrt'>
+					</Nav.Link>
+					<Nav.Link
+						className='nav-link'
+						as={Link}
+						to='/#anfahrt'
+						href='/#fokus'
+					>
 						Anfahrt
-					</Link>
-					<Link className='nav-link' to='/kontakt'>
+					</Nav.Link>
+					<Nav.Link className='nav-link' as={Link} to='/kontakt' href='/#fokus'>
 						Kontakt
-					</Link>
+					</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

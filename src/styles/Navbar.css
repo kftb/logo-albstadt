@@ -15,6 +15,10 @@
 	animation: rotate 0.7s ease-in-out 0.5s;
 }
 
+.nav-link.active {
+	color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .navbar-toggler {
 	margin-top: 0;
 }
