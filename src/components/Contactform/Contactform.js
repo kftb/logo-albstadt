@@ -10,16 +10,24 @@ export default class Contactform extends Component {
 	render() {
 		return (
 			<div class='container'>
-				<form class='contact-grid' data-netlify='true' method='POST'>
+				<form
+					name='Contact Form'
+					method='POST'
+					class='contact-grid'
+					data-netlify='true'
+					method='POST'
+				>
+					<input type='hidden' name='form-name' value='Contact Form' />
 					<label id='name' for='name'>
 						Vor- und Nachname
 					</label>
-					<input id='namebox' type='text' placeholder='Ihr Name' />
+					<input name='name' id='namebox' type='text' placeholder='Ihr Name' />
 
 					<label id='email' for='email'>
 						E-Mail-Adresse
 					</label>
 					<input
+						name='email'
 						type='emailbox'
 						id='emailbox'
 						placeholder='Ihre E-Mail-Adresse'
@@ -28,12 +36,18 @@ export default class Contactform extends Component {
 					<label id='phone' for='phone'>
 						Telefonnummer
 					</label>
-					<input type='tel' id='phonebox' placeholder='Ihre Telefonnummer' />
+					<input
+						name='phone'
+						type='tel'
+						id='phonebox'
+						placeholder='Ihre Telefonnummer'
+					/>
 
 					<label id='message' for='message'>
 						Nachricht
 					</label>
 					<textarea
+						name='message'
 						rows='3'
 						id='messagebox'
 						placeholder='Ihre Nachricht'
