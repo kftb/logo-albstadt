@@ -33,7 +33,7 @@ const SEO = ({ title, description, image, article }) => {
 	const keywords_gatsby = seo.keywords.join(",");
 
 	return (
-		<Helmet title={seo.title} htmlAttributes='de'>
+		<Helmet title={seo.title}>
 			<meta name='description' content={seo.description} />
 			<meta name='image' content={seo.image} />
 			<link rel='icon' href={require("../../images/gatsby-icon.png")} />

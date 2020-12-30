@@ -9,12 +9,14 @@ import SimpleText from "../components/SimpleText/SimpleText";
 import Process from "../components/Process/Process";
 import Principles from "../components/Principles/Principles";
 import Layout from "../layouts/Layout";
+import { Helmet } from "react-helmet";
 
 export default class Therapieablauf extends Component {
 	render() {
 		return (
 			<div>
 				<Layout>
+					<Helmet title='logo albstadt - Therapieablauf' />
 					<Intro />
 					<SimpleText
 						sectionid='whatislogo'

@@ -4,12 +4,14 @@ import "../styles/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Layout from "../layouts/Layout";
+import { Helmet } from "react-helmet";
 
 export default class impressum extends Component {
 	render() {
 		return (
 			<div>
 				<Layout>
+					<Helmet title='logo albstadt - 404' />
 					<div>
 						<div style={{ "padding-top": "10rem", "text-align": "center" }}>
 							<h2>Oops, hier ist etwas schiefgegangen.</h2>

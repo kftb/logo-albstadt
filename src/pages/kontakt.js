@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 import "../styles/index.css";
 
@@ -12,6 +13,7 @@ export default class Kontaktformular extends Component {
 	render() {
 		return (
 			<div>
+				<Helmet title='logo albstadt - Kontakt' />
 				<Layout>
 					<br></br>
 					<br></br>
