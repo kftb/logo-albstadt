@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import { useStaticQuery, graphql } from "gatsby";
-import { favicon } from "../../images/gatsby-icon.ico";
 
 const SEO = ({ title, description, image, article }) => {
 	const { pathname } = useLocation();
@@ -34,18 +33,15 @@ const SEO = ({ title, description, image, article }) => {
 	const keywords_gatsby = seo.keywords.join(",");
 
 	return (
-		<Helmet title={seo.title}>
+		<Helmet title={seo.title} htmlAttributes='de'>
 			<meta name='description' content={seo.description} />
 			<meta name='image' content={seo.image} />
 			<link rel='icon' href={require("../../images/gatsby-icon.png")} />
 
 			{seo.url && <meta property='og:url' content={seo.url} />}
-
 			{seo.title && <meta property='og:title' content={seo.title} />}
 
-			{seo.description && (
-				<meta property='og:description' content={seo.description} />
-			)}
+			<meta property='og:description' content={seo.description} />
 
 			{seo.image && <meta property='og:image' content={seo.image} />}
 			<meta property='keywords' content={keywords_gatsby} />
