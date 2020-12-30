@@ -13,8 +13,8 @@ export default class Kontaktformular extends Component {
 	render() {
 		return (
 			<div>
-				<Helmet title='logo albstadt - Kontakt' />
 				<Layout>
+					<Helmet title='logo albstadt - Kontakt' />
 					<br></br>
 					<br></br>
 					<br></br>
