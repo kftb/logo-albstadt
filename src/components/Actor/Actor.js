@@ -104,8 +104,8 @@ export default class Actor extends Component {
 								<Link to='/therapieablauf' className='internal-link'>
 									hier mehr Informationen
 								</Link>{" "}
-								zu meiner meiner Praxisphilosophie und dem typischen Ablauf
-								einer Therapie bei logo albstadt.
+								zu meiner Praxisphilosophie und dem typischen Ablauf einer
+								Therapie bei logo albstadt.
 							</p>
 						</div>
 					</div>
