@@ -11,9 +11,15 @@ module.exports = {
 	},
 	plugins: [
 		{
-			resolve: "gatsby-plugin-gtag",
+			resolve: `gatsby-plugin-gdpr-cookies`,
 			options: {
-				trackingId: process.env.GA_TRACKING_ID,
+				googleAnalytics: {
+					trackingId: process.env.GA_TRACKING_ID, // leave empty if you want to disable the tracker
+					cookieName: "gatsby-gdpr-google-analytics", // default
+					anonymize: true, // default
+					allowAdFeatures: false, // default
+				},
+				environments: ["production", "development"],
 			},
 		},
 		"gatsby-plugin-react-helmet",
