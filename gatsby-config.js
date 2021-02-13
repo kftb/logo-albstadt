@@ -19,6 +19,11 @@ module.exports = {
 					anonymize: true, // default
 					allowAdFeatures: false, // default
 				},
+				googleTagManager: {
+					trackingId: process.env.GA_TRACKING_ID, // leave empty if you want to disable the tracker
+					cookieName: "gatsby-gdpr-google-tagmanager", // default
+					dataLayerName: "dataLayer", // default
+				},
 				environments: ["production", "development"],
 			},
 		},
