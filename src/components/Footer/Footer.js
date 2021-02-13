@@ -35,7 +35,7 @@ export default class Footer extends Component {
 						<div className='footer-right'>
 							<div className='footer-heading'>Kontakt & Termine</div>
 							<div className='footer-copy'>
-								<Obfuscate tel='07432 / 123 456' />
+								<Obfuscate tel='07432 / 60 58 150' />
 								<br></br>
 							</div>
 							<div className='footer-copy'>

@@ -25,26 +25,24 @@ export default class Impressum extends Component {
 					</p>
 					<p>
 						<strong>Kontakt:</strong> <br />
-						Tel: <Obfuscate tel='07432/000 000' /> <br />
+						Tel: <Obfuscate tel='07432/60 58 150' /> <br />
 						Email: <Obfuscate email='praxis@logoalbstadt.de' />
 						<br />
 					</p>
 					<p>
 						<strong>Aufsichtsbehörde:</strong>
 						<br />
-						Behörde XYZ
+						Zulassung durch die ARGE Heilmittelzulassung Baden-Württemberg nach
+						Paragraph 124 Abs. 1 SGB V
 						<br />
 					</p>
 					<p>
-						<strong>Berufsrechtliche Regelungen</strong> <br />
-						XXX Gesetz über den Beruf des Logopäden vom 7. Mai 1980 (BGBl. I S.
-						529), das zuletzt durch Artikel 52 des Gesetzes vom 6. Dezember 2011
-						(BGBl. I S. 2515) geändert worden ist
-						http://www.gesetze-im-internet.de/logapro/index.html
+						<strong>Bildmaterial</strong> <br />
+						Pexels.com
 					</p>
 					<p>
-						<strong>Bildmaterial</strong> <br />
-						XXX
+						<strong>Webdesign</strong> <br />
+						Kevin Bay <a src='https://kevbay.me'>(kevbay.me)</a>
 					</p>
 					<p>
 						<h2>Haftungsausschluss</h2>

@@ -13,7 +13,7 @@ export default class Actor extends Component {
 					<br></br>
 					<br></br>
 					<strong>
-						<Obfuscate tel='07432 / 123 456' />
+						<Obfuscate tel='07432 / 60 58 150' />
 					</strong>
 					<br></br>
 					<br></br>
