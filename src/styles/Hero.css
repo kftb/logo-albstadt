@@ -56,10 +56,14 @@
 
 @media only screen and (min-width: 1200px) {
 	.heroQuoteTitle {
-		font-size: 7vw;
+		font-size: 6vw;
 	}
 
 	.heroQuoteSubtitle {
-		font-size: 2vw;
+		font-size: 1.5vw;
+	}
+
+	.hero-img-logo {
+		width: 35%;
 	}
 }
