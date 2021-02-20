@@ -16,7 +16,7 @@ export default class Footer extends Component {
 							<br></br>
 
 							<div className='footer-heading'>Vivian Bay</div>
-							<div className='footer-copy'>Staatlich-anerkannte Logopädin</div>
+							<div className='footer-copy'>Staatlich anerkannte Logopädin</div>
 						</div>
 						<div className='footer-middle'>
 							<div className='footer-heading'>Praxis</div>

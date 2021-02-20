@@ -12,8 +12,7 @@ export default class Actor extends Component {
 						preserveAspectRatio='none'
 						viewBox='0 0 1446 211'
 						fill='none'
-						xmlns='http://www.w3.org/2000/svg'
-					>
+						xmlns='http://www.w3.org/2000/svg'>
 						<path
 							d='M1446 211C964 211 482 211 2.31339e-05 211L0.000162687 -0.000980906C325.35 220.759 379.575 -114.654 814.379 64.0909C1035.37 154.938 1150.78 239.987 1446 148.834L1446 211Z'
 							fill='#796357'
@@ -37,14 +36,14 @@ export default class Actor extends Component {
 						<div classname='actor-text'>
 							<div className='actor-title'>Vivian Bay</div>
 							<div className='actor-subtitle'>
-								staatlich-anerkannte Logopädin
+								Staatlich anerkannte Logopädin
 							</div>
 						</div>
 
 						<div className='actor-cv'>
 							<ul>
 								<li>
-									Staatlich-anerkannte Logopädin mit mehr als 5 Jahren Erfahrung
+									Staatlich anerkannte Logopädin mit mehr als 5 Jahren Erfahrung
 								</li>
 								<li>
 									<strong>Seit 2021:</strong> Gründung der eigenen Praxis{" "}
@@ -115,8 +114,7 @@ export default class Actor extends Component {
 						preserveAspectRatio='none'
 						viewBox='0 0 1446 161'
 						fill='none'
-						xmlns='http://www.w3.org/2000/svg'
-					>
+						xmlns='http://www.w3.org/2000/svg'>
 						<path
 							d='M1445.57 16.499C1439.12 277.004 1038.88 16.4989 778.297 16.4989C469.693 16.4989 -5.49401 325.036 -11.9334 16.4989C-12.0678 10.0572 -11.9333 0.000254045 -11.9333 0.000254045L1445.57 0.000137323C1445.57 0.000137323 1445.73 10.0577 1445.57 16.499Z'
 							fill='#796357'

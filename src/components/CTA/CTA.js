@@ -9,7 +9,7 @@ export default class Actor extends Component {
 			<div className='cta' id='termin'>
 				<div className='cta-heading'>Wir freuen uns auf Ihren Anruf</div>
 				<div className='cta-copy'>
-					Möchten Sie gerne einen Termin vereinbaren, rufen Sie uns gerne an!
+					Möchten Sie einen Termin vereinbaren, rufen Sie uns gerne an!
 					<br></br>
 					<br></br>
 					<strong>
@@ -17,7 +17,7 @@ export default class Actor extends Component {
 					</strong>
 					<br></br>
 					<br></br>
-					Alternativ kontaktieren Sie uns gerne über unser{" "}
+					Alternativ kontaktieren Sie uns über unser{" "}
 					<Link to='/kontakt'>
 						<span className='internal-link'>Kontaktformular</span>
 					</Link>{" "}
