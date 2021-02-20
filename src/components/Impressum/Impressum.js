@@ -13,7 +13,7 @@ export default class Impressum extends Component {
 					<p>Angaben gemäß § 5 TMG</p>
 					<p>
 						Vivian Bay <br />
-						Talstrasse 3<br />
+						Talstraße 3<br />
 						72461 Albstadt <br />
 					</p>
 					<p>
