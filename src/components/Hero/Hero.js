@@ -7,10 +7,6 @@ export default class Hero extends Component {
 			<div className='hero' id='hero'>
 				<div className='heroImg'>
 					<div className='heroQuote'>
-						<div className='heroQuoteSubtitle'>
-							<br></br>
-							Neueröffnung am 01. März 2021!
-						</div>
 						<div className='heroQuoteTitle'>
 							<img
 								alt='logo albstadt logo'
