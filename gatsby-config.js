@@ -26,7 +26,12 @@ module.exports = {
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-image",
 
-		"gatsby-plugin-sharp",
+		{
+			resolve: "gatsby-plugin-sharp",
+			options: {
+				toFormat: "WEBP",
+			},
+		},
 
 		{
 			resolve: "gatsby-transformer-sharp",
