@@ -6,7 +6,7 @@ export default class Directions extends Component {
 		return (
 			<div className='directions' id='anfahrt'>
 				<div className='directions-title'>So finden Sie uns</div>
-				<img alt='' src={require("../../images/anfahrt.png")} />
+				<img alt='' src={require("../../images/anfahrt_small.png")} />
 				<div className='directions-copy'>
 					<br></br>
 					<br></br>
