@@ -15,11 +15,15 @@ const SEO = ({ title, description, image, article }) => {
 		defaultImage,
 	} = site.siteMetadata;
 
+	const baseUrl = "https://logoalbstadt.de";
+
 	const seo = {
 		title: title || defaultTitle,
 		description: description || defaultDescription,
 		image: `${siteUrl}${image || defaultImage}`,
 		url: `${siteUrl}${pathname}`,
+		canonicalUrl: `${baseUrl}${pathname}`,
+
 		keywords: [
 			"Logopädie",
 			"logopaedie",
@@ -44,6 +48,7 @@ const SEO = ({ title, description, image, article }) => {
 			"schlaganfall",
 		],
 	};
+	console.log(seo.canonicalUrl);
 
 	const keywords_gatsby = seo.keywords.join(",");
 
@@ -52,6 +57,7 @@ const SEO = ({ title, description, image, article }) => {
 			<meta name='description' content={seo.description} />
 			<meta name='image' content={seo.image} />
 			<link rel='icon' href={require("../../images/gatsby-icon.png")} />
+			<link rel='canonical' content={seo.canonicalUrl} />
 
 			{seo.url && <meta property='og:url' content={seo.url} />}
 			{seo.title && <meta property='og:title' content={seo.title} />}
