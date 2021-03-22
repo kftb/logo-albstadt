@@ -16,7 +16,16 @@ export default class Therapieablauf extends Component {
 		return (
 			<div>
 				<Layout>
-					<Helmet title='logo albstadt - Therapieablauf' />
+					<Helmet
+						title='logo albstadt - Therapieablauf'
+						meta={[
+							{
+								name: "description",
+								content:
+									"Unsere Therapie basiert auf unseren Grundprinzipien, welche wir Ihnen auf dieser Seite vorstellen möchten.",
+							},
+						]}
+					/>
 					<Intro />
 					<SimpleText
 						sectionid='whatislogo'

@@ -14,7 +14,16 @@ export default class Kontaktformular extends Component {
 		return (
 			<div>
 				<Layout>
-					<Helmet title='logo albstadt - Kontakt' />
+					<Helmet
+						title='logo albstadt - Kontakt'
+						meta={[
+							{
+								name: "description",
+								content:
+									"Über unser Kontaktformular können Sie uns direkt eine Nachricht senden. Wir freuen uns über alle Anfragen von Ihnen!",
+							},
+						]}
+					/>
 					<br></br>
 					<br></br>
 					<br></br>

@@ -2,9 +2,10 @@ require("dotenv").config();
 
 module.exports = {
 	siteMetadata: {
-		title: "logo albstadt",
+		title: "logo albstadt | Vivian Bay - die logopädische Praxis in Albstadt",
 
-		description: "logo albstadt - die logopädische Praxis in Albstadt",
+		description:
+			"logo albstadt | Vivian Bay - die logopädische Praxis in Albstadt",
 		siteUrl: "https://www.logoalbstadt.de", // No trailing slash allowed!
 		image: "/images/logoalbstadt.png", // Path to your image you placed in the 'static' folder
 		author: "Vivian Bay",
