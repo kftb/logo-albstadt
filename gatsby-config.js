@@ -81,6 +81,11 @@ module.exports = {
 		},
 		"gatsby-plugin-sass",
 		"gatsby-plugin-sitemap",
-		"gatsby-plugin-netlify-cms"
+		{
+			resolve: `gatsby-plugin-netlify-cms`,
+			options: {
+			  enableIdentityWidget: true,
+			}
+		  },
 	],
 };
