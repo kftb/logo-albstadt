@@ -26,6 +26,7 @@ module.exports = {
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-image",
 
+
 		{
 			resolve: "gatsby-plugin-sharp",
 			options: {
@@ -80,5 +81,6 @@ module.exports = {
 		},
 		"gatsby-plugin-sass",
 		"gatsby-plugin-sitemap",
+		"gatsby-plugin-netlify-cms"
 	],
 };
