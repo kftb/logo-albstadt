@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Obfuscate from "react-obfuscate";
 import { Link } from "gatsby";
 
+
 import "../../styles/Footer.css";
 
 export default class Footer extends Component {
@@ -28,7 +29,17 @@ export default class Footer extends Component {
 
 							<div className='footer-heading'>Terminzeiten</div>
 							<div className='footer-copy'>
-								Mo-Fr.: 08:00 - 18:00 Uhr<br></br>
+								
+							{process.env.GATSBY_SHOW_SPECIALHOURS === 'ja' ? 
+							<div className='footer-copy'>
+								<span>{process.env.GATSBY_SPECIALHOURS}</span>
+							</div> : 
+							<div className='footer-copy'>
+							<span>
+								
+								{process.env.GATSBY_HOURS}
+								</span>
+								</div>}
 								Termine nach Vereinbarung
 							</div>
 						</div>

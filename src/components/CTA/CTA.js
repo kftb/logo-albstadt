@@ -1,7 +1,7 @@
-import React, { Component } from "react";
 import { Link } from "gatsby";
-import "../../styles/CTA.css";
+import React, { Component } from "react";
 import Obfuscate from "react-obfuscate";
+import "../../styles/CTA.css";
 
 export default class Actor extends Component {
 	render() {
@@ -23,6 +23,27 @@ export default class Actor extends Component {
 					</Link>{" "}
 					und wir melden uns umgehend bei Ihnen!
 				</div>
+				<br></br>
+					<br></br>
+				<div className='cta-copy'>
+					
+					<strong>
+						
+					</strong>
+					<div className='cta-copy'>
+								
+							{process.env.GATSBY_SHOW_SPECIALHOURS === 'ja' ? 
+							<span>{process.env.GATSBY_SPECIALHOURS}
+							<p>Termine nach Vereinbarung</p>
+							</span> : 
+							<span>
+								<p>Unsere Öffnungszeiten sind:</p>
+								<p>{process.env.GATSBY_HOURS}</p>
+								</span>}
+								
+							</div>
+				</div>
+
 			</div>
 		);
 	}
