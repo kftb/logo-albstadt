@@ -104,7 +104,7 @@ export default class Process extends Component {
 						<li>
 							Eltern können gerne während der Therapieeinheit in der Praxis
 							warten oder die Zeit anderweitig nutzen, z.B. für Erledigungen in
-							nahegelegenden Geschäften.
+							nahegelegenen Geschäften.
 						</li>
 						<li>
 							Sollte eine Verlängerung der Therapie sinnvoll sein, kann diese

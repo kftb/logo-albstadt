@@ -47,8 +47,8 @@ export default class Principles extends Component {
 							Therapie individuell auf den Patienten abgestimmt ist. Diese Idee
 							bildet den Grundsatz bei logo albstadt. Dies bedeutet, dass wir
 							vor Therapiebeginn einen umfänglichen und persönlichen
-							Therapieplan erstellen und passen diesen kontinuierlich an den
-							wirklichen Therapieverlauf an.
+							Therapieplan erstellen und diesen kontinuierlich an den
+							wirklichen Therapieverlauf anpassen.
 						</div>
 
 						<div className='principles-img'>

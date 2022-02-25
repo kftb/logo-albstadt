@@ -43,7 +43,7 @@ export default class Actor extends Component {
 						<div className='actor-cv'>
 							<ul>
 								<li>
-									Staatlich anerkannte Logopädin mit mehr als 5 Jahren Erfahrung
+									Staatlich anerkannte Logopädin mit mehr als 7 Jahren Erfahrung
 								</li>
 								<li>
 									<strong>Seit 2021:</strong> Gründung der eigenen Praxis{" "}
@@ -92,8 +92,8 @@ export default class Actor extends Component {
 								400 Patienten betreuen und habe in dieser Zeit alle gängigen
 								Störungsbilder behandelt. Bereits in meiner Zeit bei Susanne
 								Konrad habe ich mich vermehrt auf Kinder- und Jugendliche
-								spezialisiert, einen Fokus den ich nun in meiner eigenen Praxis
-								fortführen werde.{" "}
+								spezialisiert, einen Fokus, den ich nun in meiner Praxis
+								fortführe.{" "}
 							</p>
 							<p>
 								Eine auf den einzelnen Patienten abgestimmte Therapie ist mir
