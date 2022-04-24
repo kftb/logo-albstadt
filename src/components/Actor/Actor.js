@@ -85,7 +85,7 @@ export default class Actor extends Component {
 								<li>Best Practices des Tapings zum Einsatz in der Logopädie</li>
 							</ul>
 							<p>
-								In den vergangenen fünf Jahren als Logopädin durfte ich mehr als
+								In den vergangenen sieben Jahren als Logopädin durfte ich mehr als
 								400 Patienten betreuen und habe in dieser Zeit alle gängigen
 								Störungsbilder behandelt. Bereits in meiner Zeit bei Susanne
 								Konrad habe ich mich vermehrt auf Kinder- und Jugendliche
