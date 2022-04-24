@@ -64,13 +64,10 @@ export default class Actor extends Component {
 							<strong>Zertifizierungen</strong>
 							<ul>
 								<li>zertifizierte ROTA-Therapeutin</li>
+								<li>zertifizierte Kon-Lab-Therapeutin</li>
 							</ul>
 							<strong>Fortbildungen</strong>
 							<ul>
-								<li>
-									Therapie der Sprachentwicklungsstörung nach Dr. Zvi Penner
-									(Kon-Lab)
-								</li>
 								<li>
 									Diagnostik und Therapie von Schluckstörungen (Dysphagie)
 								</li>
