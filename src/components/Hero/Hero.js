@@ -16,10 +16,9 @@ export default class Hero extends Component {
             <div className="heroQuoteSubtitle">
               <p> Ihre logopädische Praxis in Albstadt</p>
               <p style={{ color: "#8b0000" }}>
-                <p>Liebe PatientInnen,</p> logo albstadt ist vom 1. November
-                2022 bis Ende 2023 wegen Elternzeit geschlossen.
+                <p>Liebe PatientInnen,</p> logo albstadt ist aktuell wegen Elternzeit geschlossen.
                 <p>
-                  Wir freuen uns Sie voraussichtlich im Januar 2024 wieder
+                  Wir freuen uns Sie voraussichtlich im März 2024 wieder
                   begrüßen zu dürfen.
                 </p>
               </p>
