@@ -109,6 +109,22 @@ export default class Contactform extends Component {
               />
               Später vormittag (10-12 Uhr)
             </li>
+            <li>
+              <input
+                type="checkbox"
+                id="earlyafternoon"
+                name="Früher Nachmittag (12-15)"
+              />
+              Früher nachmittag (12-15 Uhr)
+            </li>
+            <li>
+              <input
+                type="checkbox"
+                id="lateafternoon"
+                name="Später Nachmittag (15-18)"
+              />
+              Später nachmittag (15-18 Uhr)
+            </li>
           </ul>
           <div className="required-input">* = erforderliches Feld</div>
           <br />
