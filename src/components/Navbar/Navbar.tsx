@@ -5,8 +5,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "gatsby";
 import logo from "../../images/logoalbstadt.svg";
 
-
-export default function App() {
+export default function NavbarComponent(): JSX.Element {
 	return (
 		<Navbar collapseOnSelect expand='md' bg='white' variant='light'>
 			<Navbar.Brand href='#home'>

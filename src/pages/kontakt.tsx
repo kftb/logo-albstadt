@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import "../styles/index.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import SimpleText from "../components/SimpleText/SimpleText";
@@ -10,7 +9,7 @@ import Layout from "../layouts/Layout";
 import { Seo } from "../components/SEO/SEO";
 
 export default class Kontaktformular extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div>
 				<Layout>
@@ -42,11 +41,11 @@ export default class Kontaktformular extends Component {
 	}
 }
 
-export function Head({ location }) {
+export function Head({ location }: { location: { pathname: string } }): JSX.Element {
 	return (
 		<Seo
-			title="logo albstadt - Kontakt"
-			description="Über unser Kontaktformular können Sie uns direkt eine Nachricht senden. Wir freuen uns über alle Anfragen von Ihnen!"
+			title='logo albstadt - Kontakt'
+			description='Über unser Kontaktformular können Sie uns direkt eine Nachricht senden. Wir freuen uns über alle Anfragen von Ihnen!'
 			pathname={location.pathname}
 		/>
 	);

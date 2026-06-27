@@ -6,11 +6,10 @@ import piece3 from "../../images/piece3.svg";
 import piece4 from "../../images/piece4.svg";
 
 export default class Principles extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='principles' id='principles'>
 				<div className='principles-top'>
-					{" "}
 					<svg
 						preserveAspectRatio='none'
 						viewBox='0 0 1446 211'
@@ -23,7 +22,7 @@ export default class Principles extends Component {
 							fillOpacity='0.6'
 						/>
 						<path
-							opacity='0.2'
+							opacity={0.2}
 							d='M-12.2052 211L1433.79 211L1433.79 139.876C1009.03 171.231 1034.64 -23.8644 615.901 43.1995C389.641 79.4366 202.184 -18.6388 -12.2052 50.1669L-12.2052 211Z'
 							fill='#C8B2A6'
 						/>
@@ -34,16 +33,9 @@ export default class Principles extends Component {
 						<div className='principles-heading'>Unsere Praxisphilosophie</div>
 
 						<div className='principles-img'>
-							<img
-								style={{ gridColumn: 1, gridRow: 1 }}
-								src={piece1}
-								alt=''
-							/>
+							<img style={{ gridColumn: 1, gridRow: 1 }} src={piece1} alt='' />
 						</div>
-						<div
-							style={{ gridColumn: 2, gridRow: 2 }}
-							className='principles-copy'
-						>
+						<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
 							<strong>Individuell</strong>
 							<br />
 							In der Logopädie sehen wir immer wieder ähnliche Störungsbilder,
@@ -56,16 +48,9 @@ export default class Principles extends Component {
 						</div>
 
 						<div className='principles-img'>
-							<img
-								style={{ gridColumn: 1, gridRow: 2 }}
-								src={piece3}
-								alt=''
-							/>
+							<img style={{ gridColumn: 1, gridRow: 2 }} src={piece3} alt='' />
 						</div>
-						<div
-							style={{ gridColumn: 2, gridRow: 2 }}
-							className='principles-copy'
-						>
+						<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
 							<strong>Zielsetzung</strong>
 							<br />
 							Der wichtigste Bestandteil des Therapieplans ist für uns das
@@ -78,16 +63,9 @@ export default class Principles extends Component {
 						</div>
 
 						<div className='principles-img'>
-							<img
-								style={{ gridColumn: 1, gridRow: 2 }}
-								src={piece2}
-								alt=''
-							/>
+							<img style={{ gridColumn: 1, gridRow: 2 }} src={piece2} alt='' />
 						</div>
-						<div
-							style={{ gridColumn: 2, gridRow: 2 }}
-							className='principles-copy'
-						>
+						<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
 							<strong>Transparenz</strong>
 							<br />
 							Den Überblick im Wirrwarr von Ärzten, Therapeuten und unzähligen
@@ -100,17 +78,9 @@ export default class Principles extends Component {
 						</div>
 
 						<div className='principles-img'>
-							<img
-								style={{ gridColumn: 1, gridRow: 2 }}
-								src={piece4}
-								alt=''
-							/>
+							<img style={{ gridColumn: 1, gridRow: 2 }} src={piece4} alt='' />
 						</div>
-
-						<div
-							style={{ gridColumn: 2, gridRow: 2 }}
-							className='principles-copy'
-						>
+						<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
 							<strong>Ganzheitlich</strong>
 							<br />
 							Es wird oftmals angenommen, dass die Ursachen für logopädische
@@ -137,7 +107,7 @@ export default class Principles extends Component {
 							fillOpacity='0.6'
 						/>
 						<path
-							opacity='0.2'
+							opacity={0.2}
 							d='M21.4999 137.501C304.538 42.1318 551.373 23.4507 805.409 107.5C1059.45 191.549 1447 0.000121179 1447 0.000121179L-12.205 0.000115682C-12.205 0.000115682 -261.538 232.87 21.4999 137.501Z'
 							fill='#C8B2A6'
 						/>

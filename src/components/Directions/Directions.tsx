@@ -3,21 +3,21 @@ import "../../styles/Directions.css";
 import anfahrtImg from "../../images/anfahrt_small.png";
 
 export default class Directions extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='directions' id='anfahrt'>
 				<div className='directions-title'>So finden Sie uns</div>
 				<img alt='' src={anfahrtImg} />
 				<div className='directions-copy'>
-					<br></br>
-					<br></br>
+					<br />
+					<br />
 					<div className='directions-copy'>
 						<strong>logo albstadt - Praxis für Logopädie</strong>
-						<br></br>
-						Talstraße 3<br></br>
+						<br />
+						Talstraße 3<br />
 						72461 Albstadt-Onstmettingen
-						<br></br>
-						<br></br>
+						<br />
+						<br />
 					</div>
 					<strong>Von Tailfingen kommend</strong>
 					<p>
@@ -27,7 +27,7 @@ export default class Directions extends Component {
 						Sie finden unsere Praxis sodann im mittleren Haus in der kurzen
 						Talstraße. Parken Sie gerne direkt vorm Haus, wenn noch frei.
 					</p>
-					<br></br>
+					<br />
 					<strong>Von Bisingen/Stich/Langenwand kommend</strong>
 					<p>
 						Sie folgen der Hauptstraße in Richtung Tailfingen bis kurz vor

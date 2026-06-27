@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Subfeature from "./Subfeature.js";
+import Subfeature from "./Subfeature";
 import { Link } from "gatsby";
 import "../../styles/Features.css";
 import kidsImg from "../../images/kids.png";
 import seniorsImg from "../../images/seniors.png";
 
 export default class Features extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='features' id='fokus'>
 				<div className='features-heading'>Unser Praxisfokus</div>
@@ -36,7 +36,6 @@ export default class Features extends Component {
 								<strong>Sprechen</strong>
 								<ul>
 									<li>Stottern / Poltern (Redeflussstörung)</li>
-
 									<li>
 										Unkorrekte oder nicht altersentsprechende Artikulation oder
 										Verwendung eines Lautes (phonetische/phonologische Störung)
@@ -87,7 +86,6 @@ export default class Features extends Component {
 									<li>Störung der Sprechmotorik/der Stimme (Dysarthrie)</li>
 									<li>Störung der Sprechplanung (Sprechapraxie)</li>
 									<li>Stottern / Poltern (Redeflussstörung) </li>
-
 									<li>
 										Einschränkungen durch Gesichtslähmungen (Fazialis- und
 										Hypoglossusparese)

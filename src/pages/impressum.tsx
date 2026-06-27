@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import "../styles/index.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Impressum from "../components/Impressum/Impressum";
@@ -9,7 +8,7 @@ import Layout from "../layouts/Layout";
 import { Seo } from "../components/SEO/SEO";
 
 export default class ImpressumPage extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div>
 				<Layout>
@@ -20,11 +19,11 @@ export default class ImpressumPage extends Component {
 	}
 }
 
-export function Head({ location }) {
+export function Head({ location }: { location: { pathname: string } }): JSX.Element {
 	return (
 		<Seo
-			title="logo albstadt - Impressum"
-			description="Finden Sie hier unsere Kontaktdaten sowie datenschutzrechtliche Hinweise"
+			title='logo albstadt - Impressum'
+			description='Finden Sie hier unsere Kontaktdaten sowie datenschutzrechtliche Hinweise'
 			pathname={location.pathname}
 		/>
 	);

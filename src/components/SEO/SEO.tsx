@@ -27,7 +27,14 @@ const keywords = [
 
 const baseUrl = "https://logoalbstadt.de";
 
-export function Seo({ title, description, image, pathname = "" }) {
+interface SeoProps {
+	title?: string;
+	description?: string;
+	image?: string;
+	pathname?: string;
+}
+
+export function Seo({ title, description, image, pathname = "" }: SeoProps): JSX.Element {
 	const { site } = useStaticQuery(graphql`
 		query SeoQuery {
 			site {
@@ -45,25 +52,25 @@ export function Seo({ title, description, image, pathname = "" }) {
 		site.siteMetadata;
 
 	const seo = {
-		title: title || defaultTitle,
-		description: description || defaultDescription,
-		image: `${siteUrl}${image || defaultImage}`,
+		title: title ?? defaultTitle,
+		description: description ?? defaultDescription,
+		image: `${siteUrl}${image ?? defaultImage}`,
 		url: `${siteUrl}${pathname}`,
 		canonicalUrl: `${baseUrl}${pathname}`,
 	};
 
 	return (
 		<>
-			<html lang="de" />
+			<html lang='de' />
 			<title>{seo.title}</title>
-			<meta name="description" content={seo.description} />
-			<meta name="image" content={seo.image} />
-			<link rel="canonical" href={seo.canonicalUrl} />
-			<meta property="og:url" content={seo.url} />
-			<meta property="og:title" content={seo.title} />
-			<meta property="og:description" content={seo.description} />
-			<meta property="og:image" content={seo.image} />
-			<meta name="keywords" content={keywords.join(",")} />
+			<meta name='description' content={seo.description} />
+			<meta name='image' content={seo.image} />
+			<link rel='canonical' href={seo.canonicalUrl} />
+			<meta property='og:url' content={seo.url} />
+			<meta property='og:title' content={seo.title} />
+			<meta property='og:description' content={seo.description} />
+			<meta property='og:image' content={seo.image} />
+			<meta name='keywords' content={keywords.join(",")} />
 		</>
 	);
 }

@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import Obfuscate from "react-obfuscate";
 import { Link } from "gatsby";
-
-
 import "../../styles/Footer.css";
 
 export default class Footer extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='footer'>
 				<div className='footer-container'>
@@ -14,32 +12,28 @@ export default class Footer extends Component {
 						<div className='footer-left'>
 							<div className='footer-heading'>logo albstadt</div>
 							<div className='footer-copy'>Praxis für Logopädie</div>
-							<br></br>
-
+							<br />
 							<div className='footer-heading'>Vivian Bay</div>
 							<div className='footer-copy'>Staatlich anerkannte Logopädin</div>
 						</div>
 						<div className='footer-middle'>
 							<div className='footer-heading'>Praxis</div>
 							<div className='footer-copy'>
-								Talstraße 3<br></br>
+								Talstraße 3<br />
 								72461 Albstadt
 							</div>
-							<br></br>
-
+							<br />
 							<div className='footer-heading'>Terminzeiten</div>
 							<div className='footer-copy'>
-								
-							{process.env.GATSBY_SHOW_SPECIALHOURS === 'ja' ? 
-							<div className='footer-copy'>
-								<span>{process.env.GATSBY_SPECIALHOURS}</span>
-							</div> : 
-							<div className='footer-copy'>
-							<span>
-								
-								{process.env.GATSBY_HOURS}
-								</span>
-								</div>}
+								{process.env.GATSBY_SHOW_SPECIALHOURS === "ja" ? (
+									<div className='footer-copy'>
+										<span>{process.env.GATSBY_SPECIALHOURS}</span>
+									</div>
+								) : (
+									<div className='footer-copy'>
+										<span>{process.env.GATSBY_HOURS}</span>
+									</div>
+								)}
 								Termine nach Vereinbarung
 							</div>
 						</div>
@@ -47,10 +41,10 @@ export default class Footer extends Component {
 							<div className='footer-heading'>Kontakt & Termine</div>
 							<div className='footer-copy'>
 								<Obfuscate tel='07432 / 60 58 150' />
-								<br></br>
+								<br />
 							</div>
 							<div className='footer-copy'>
-								<br></br>
+								<br />
 								<Obfuscate email='praxis@logoalbstadt.de' />
 								<br />
 								<Link to='/kontakt'>
@@ -60,7 +54,7 @@ export default class Footer extends Component {
 						</div>
 					</div>
 					<br />
-					<hr></hr>
+					<hr />
 					<div className='footer-bottom'>
 						<ul className='footer-link'>
 							<li className='footer-link-item'>

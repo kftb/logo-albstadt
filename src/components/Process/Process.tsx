@@ -3,22 +3,16 @@ import "../../styles/Process.css";
 import { Link } from "gatsby";
 
 export default class Process extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='process' id='ablauf'>
 				<div className='process-heading'>
 					Wie läuft eine Therapie bei logo albstadt ab?
 				</div>
-				<div
-					style={{ "grid-column": 1, "grid-row": 2 }}
-					className='process-number'
-				>
+				<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>
 					1
 				</div>
-				<div
-					style={{ "grid-column": 2, "grid-row": 3 }}
-					className='process-copy'
-				>
+				<div style={{ gridColumn: 2, gridRow: 3 }} className='process-copy'>
 					<strong>Feststellung / Vorstellung beim Arzt</strong>
 					<ul>
 						<li>
@@ -49,16 +43,10 @@ export default class Process extends Component {
 					</ul>
 				</div>
 
-				<div
-					style={{ "grid-column": 1, "grid-row": 2 }}
-					className='process-number'
-				>
+				<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>
 					2
 				</div>
-				<div
-					style={{ "grid-column": 2, "grid-row": 4 }}
-					className='process-copy'
-				>
+				<div style={{ gridColumn: 2, gridRow: 4 }} className='process-copy'>
 					<strong>Erstgespräch / Diagnostik </strong>
 					<ul>
 						<li>
@@ -79,16 +67,10 @@ export default class Process extends Component {
 						</li>
 					</ul>
 				</div>
-				<div
-					style={{ "grid-column": 1, "grid-row": 2 }}
-					className='process-number'
-				>
+				<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>
 					3
 				</div>
-				<div
-					style={{ "grid-column": 2, "grid-row": 5 }}
-					className='process-copy'
-				>
+				<div style={{ gridColumn: 2, gridRow: 5 }} className='process-copy'>
 					<strong>Behandlung / Behandlungsdauer</strong>
 					<ul>
 						<li>
@@ -112,16 +94,10 @@ export default class Process extends Component {
 						</li>
 					</ul>
 				</div>
-				<div
-					style={{ "grid-column": 1, "grid-row": 2 }}
-					className='process-number'
-				>
+				<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>
 					4
 				</div>
-				<div
-					className='process-copy'
-					style={{ "grid-column": 2, "grid-row": 6 }}
-				>
+				<div className='process-copy' style={{ gridColumn: 2, gridRow: 6 }}>
 					<strong>Behandlungskosten</strong>
 					<p>
 						<ul>
@@ -147,7 +123,7 @@ export default class Process extends Component {
 				</div>
 				<div
 					className='process-copy'
-					style={{ "grid-column": "1 / span 2", "grid-row": 6 }}
+					style={{ gridColumn: "1 / span 2", gridRow: 6 }}
 				>
 					Kommen Sie bei weiteren Fragen gerne jederzeit auf uns zu.
 				</div>

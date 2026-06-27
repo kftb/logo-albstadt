@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import "../../styles/Quote.css";
 
 export default class Quote extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='quote'>
 				<div className='quote-container'>
 					<div className='quote-title'>
 						"Das Menschlichste, was wir haben, ist die Sprache."
 					</div>
-					<br></br>
+					<br />
 					<div className='quote-author'>Theodore Fontane</div>
 					<div className='quote-copy'>
 						Nichts verbindet uns mehr als Sprache. Wir bei{" "}
