@@ -44,15 +44,7 @@ module.exports = {
 			},
 			__key: "pages",
 		},
-		{
-			resolve: "gatsby-source-filesystem",
-			options: {
-				name: "fonts",
-				path: `${__dirname}/src/fonts`,
-			},
-			__key: "fonts",
-		},
-		{
+{
 			resolve: "gatsby-plugin-web-font-loader",
 			options: {
 				custom: {
