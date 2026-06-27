@@ -4,12 +4,6 @@ import "../../styles/Navbar.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "gatsby";
 
-if (typeof window !== "undefined") {
-	// eslint-disable-next-line global-require
-	require("smooth-scroll")('a[href*="#"]', {
-		offset: 120,
-	});
-}
 
 export default function App() {
 	return (
