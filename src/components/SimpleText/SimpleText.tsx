@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../styles/SimpleText.css";
 
 interface SimpleTextProps {
@@ -7,13 +7,11 @@ interface SimpleTextProps {
 	sectionid?: string;
 }
 
-export default class SimpleText extends Component<SimpleTextProps> {
-	render(): JSX.Element {
-		return (
-			<div className='simpletext' id={this.props.sectionid}>
-				<div className='simpletext-heading'>{this.props.heading}</div>
-				<div className='simpletext-copy'>{this.props.copy}</div>
-			</div>
-		);
-	}
+export default function SimpleText({ heading, copy, sectionid }: SimpleTextProps): JSX.Element {
+	return (
+		<div className='simpletext' id={sectionid}>
+			<div className='simpletext-heading'>{heading}</div>
+			<div className='simpletext-copy'>{copy}</div>
+		</div>
+	);
 }
