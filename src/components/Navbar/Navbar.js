@@ -17,7 +17,7 @@ export default function App() {
 			<Navbar.Brand href='#home'>
 				<Link className='nav-link' to='/'>
 					<img
-						alt=''
+						alt='logo albstadt'
 						className='navbar-logo'
 						src={require("../../images/logoalbstadt.svg")}
 					/>
@@ -29,17 +29,17 @@ export default function App() {
 					<Nav.Link className='nav-link' as={Link} to='/#fokus' href='/#fokus'>
 						Unser Praxisfokus
 					</Nav.Link>
-					<Nav.Link className='nav-link' as={Link} to='/#team' href='/#fokus'>
+					<Nav.Link className='nav-link' as={Link} to='/#team' href='/#team'>
 						Unser Team
 					</Nav.Link>
-					<Nav.Link className='nav-link' as={Link} to='/#termin' href='/#fokus'>
+					<Nav.Link className='nav-link' as={Link} to='/#termin' href='/#termin'>
 						Termin & Öffnungszeiten
 					</Nav.Link>
 					<Nav.Link
 						className='nav-link'
 						as={Link}
 						to='/therapieablauf'
-						href='/#fokus'
+						href='/therapieablauf'
 					>
 						Therapieablauf
 					</Nav.Link>
@@ -47,11 +47,11 @@ export default function App() {
 						className='nav-link'
 						as={Link}
 						to='/#anfahrt'
-						href='/#fokus'
+						href='/#anfahrt'
 					>
 						Anfahrt
 					</Nav.Link>
-					<Nav.Link className='nav-link' as={Link} to='/kontakt' href='/#fokus'>
+					<Nav.Link className='nav-link' as={Link} to='/kontakt' href='/kontakt'>
 						Kontakt
 					</Nav.Link>
 				</Nav>
