@@ -12,7 +12,7 @@ export default function Subfeature({ img, heading, copy, list }: SubfeatureProps
 	return (
 		<div className='subfeature'>
 			<div className='subfeature-img'>
-				<img className='subfeature-img-img' alt='' src={img} />
+				<img className='subfeature-img-img' alt='' src={img} width={209} height={209} />
 			</div>
 			<div className='subfeature-heading'>{heading}</div>
 			<div className='subfeature-copy'>
