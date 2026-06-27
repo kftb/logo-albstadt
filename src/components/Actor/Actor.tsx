@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Actor.css";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import vivianImg from "../../images/vivian.png";
 
 export default function Actor(): JSX.Element {
 	return (
@@ -30,11 +30,12 @@ export default function Actor(): JSX.Element {
 				<div className='actor-container'>
 					<div className='actor-heading'>Ihre Logopädin bei logo albstadt</div>
 					<div className='actor-img'>
-						<StaticImage
-							src='../../images/vivian.png'
+						<img
+							src={vivianImg}
 							alt='Vivian Bay'
-							layout='constrained'
 							className='actor-photo'
+							width={209}
+							height={209}
 						/>
 					</div>
 					<div className='actor-text'>

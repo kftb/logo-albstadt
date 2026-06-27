@@ -91,6 +91,7 @@
 
 .actor-photo {
 	width: 88%;
+	height: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -116,6 +117,7 @@
 
 	.actor-photo {
 		width: 50%;
+		height: auto;
 	}
 }
 

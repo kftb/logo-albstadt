@@ -6,12 +6,13 @@ export default function Directions(): JSX.Element {
 	return (
 		<div className='directions' id='anfahrt'>
 			<div className='directions-title'>So finden Sie uns</div>
-			<StaticImage
-				src='../../images/anfahrt_small.png'
-				alt='Anfahrtskarte zur Praxis logo albstadt'
-				layout='constrained'
-				className='directions-map'
-			/>
+			<div className='directions-map'>
+				<StaticImage
+					src='../../images/anfahrt_small.png'
+					alt='Anfahrtskarte zur Praxis logo albstadt'
+					layout='fullWidth'
+				/>
+			</div>
 			<div className='directions-copy'>
 				<br />
 				<br />
