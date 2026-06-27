@@ -23,6 +23,11 @@
 	width: 100%;
 }
 
+.actor-top svg,
+.actor-bottom svg {
+	display: block;
+}
+
 .actor-middle {
 	padding-top: 1px;
 	display: flex;

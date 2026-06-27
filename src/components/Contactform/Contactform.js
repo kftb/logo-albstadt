@@ -3,24 +3,24 @@ import React, { Component } from "react";
 import "../../styles/Contactform.css";
 
 export default class Contactform extends Component {
-  handleSubmit() {
+  handleSubmit(e) {
+    e.preventDefault();
     alert("Vielen Dank für Ihre Nachricht. Wir melden uns umgehend bei Ihnen.");
   }
 
   render() {
     return (
-      <div class="container">
+      <div className="container">
         <form
           name="Kontaktformular"
           method="POST"
-          class="contact-grid"
+          className="contact-grid"
           data-netlify="true"
-          method="POST"
           action="/kontakt"
           onSubmit={this.handleSubmit}
         >
           <input type="hidden" name="form-name" value="Kontaktformular" />
-          <label id="name" for="name">
+          <label id="name" htmlFor="namebox">
             Vor- und Nachname*
           </label>
           <input
@@ -31,17 +31,17 @@ export default class Contactform extends Component {
             required
           />
 
-          <label id="email" for="email">
+          <label id="email" htmlFor="emailbox">
             E-Mail-Adresse
           </label>
           <input
             name="email"
-            type="emailbox"
+            type="email"
             id="emailbox"
             placeholder="Ihre E-Mail-Adresse"
           />
 
-          <label id="phone" for="phone">
+          <label id="phone" htmlFor="phonebox">
             Telefonnummer*
           </label>
           <input
@@ -52,7 +52,7 @@ export default class Contactform extends Component {
             required
           />
 
-          <label id="message" for="message">
+          <label id="message" htmlFor="messagebox">
             Nachricht*
           </label>
           <textarea
@@ -66,7 +66,7 @@ export default class Contactform extends Component {
           <p id="days">
             <label>Präferierte Tage</label>
           </p>
-          <ul id="daysbox" class="contact-list">
+          <ul id="daysbox" className="contact-list">
             <li>
               <input name="Montag" type="checkbox" id="Monday" />
               Montags
@@ -92,7 +92,7 @@ export default class Contactform extends Component {
           <p id="times">
             <label>Präferierte Zeiten</label>
           </p>
-          <ul id="timesbox" class="contact-list">
+          <ul id="timesbox" className="contact-list">
             <li>
               <input
                 type="checkbox"
