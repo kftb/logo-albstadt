@@ -3,7 +3,22 @@ import "../../styles/Contactform.css";
 
 function handleSubmit(e: React.FormEvent<HTMLFormElement>): void {
 	e.preventDefault();
-	alert("Vielen Dank für Ihre Nachricht. Wir melden uns umgehend bei Ihnen.");
+	const form = e.currentTarget;
+	const params = new URLSearchParams();
+	new FormData(form).forEach((value, key) => params.append(key, value.toString()));
+
+	fetch("/", {
+		method: "POST",
+		headers: { "Content-Type": "application/x-www-form-urlencoded" },
+		body: params.toString(),
+	})
+		.then(() => {
+			alert("Vielen Dank für Ihre Nachricht. Wir melden uns umgehend bei Ihnen.");
+			form.reset();
+		})
+		.catch(() => {
+			alert("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.");
+		});
 }
 
 export default function Contactform(): JSX.Element {
