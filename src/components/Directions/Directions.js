@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "../../styles/Directions.css";
+import anfahrtImg from "../../images/anfahrt_small.png";
 
 export default class Directions extends Component {
 	render() {
 		return (
 			<div className='directions' id='anfahrt'>
 				<div className='directions-title'>So finden Sie uns</div>
-				<img alt='' src={require("../../images/anfahrt_small.png")} />
+				<img alt='' src={anfahrtImg} />
 				<div className='directions-copy'>
 					<br></br>
 					<br></br>

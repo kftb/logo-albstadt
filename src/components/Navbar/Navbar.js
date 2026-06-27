@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/Navbar.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "gatsby";
+import logo from "../../images/logoalbstadt.svg";
 
 
 export default function App() {
@@ -13,13 +14,13 @@ export default function App() {
 					<img
 						alt='logo albstadt'
 						className='navbar-logo'
-						src={require("../../images/logoalbstadt.svg")}
+						src={logo}
 					/>
 				</Link>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 			<Navbar.Collapse id='responsive-navbar-nav'>
-				<Nav className='ml-4'>
+				<Nav className='ms-4'>
 					<Nav.Link className='nav-link' as={Link} to='/#fokus' href='/#fokus'>
 						Unser Praxisfokus
 					</Nav.Link>

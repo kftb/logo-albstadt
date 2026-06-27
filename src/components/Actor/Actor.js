@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../../styles/Actor.css";
 import { Link } from "gatsby";
+import vivianImg from "../../images/vivian.png";
 
 export default class Actor extends Component {
 	render() {
@@ -31,7 +32,7 @@ export default class Actor extends Component {
 							Ihre Logopädin bei logo albstadt
 						</div>
 						<div className='actor-img'>
-							<img src={require("../../images/vivian.png")} alt='' />
+							<img src={vivianImg} alt='' />
 						</div>
 						<div className='actor-text'>
 							<div className='actor-title'>Vivian Bay</div>

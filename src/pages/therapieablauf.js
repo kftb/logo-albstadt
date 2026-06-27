@@ -9,23 +9,13 @@ import SimpleText from "../components/SimpleText/SimpleText";
 import Process from "../components/Process/Process";
 import Principles from "../components/Principles/Principles";
 import Layout from "../layouts/Layout";
-import { Helmet } from "react-helmet";
+import { Seo } from "../components/SEO/SEO";
 
 export default class Therapieablauf extends Component {
 	render() {
 		return (
 			<div>
 				<Layout>
-					<Helmet
-						title='logo albstadt - Therapieablauf'
-						meta={[
-							{
-								name: "description",
-								content:
-									"Unsere Therapie basiert auf unseren Grundprinzipien, welche wir Ihnen auf dieser Seite vorstellen möchten.",
-							},
-						]}
-					/>
 					<Intro />
 					<SimpleText
 						sectionid='whatislogo'
@@ -58,4 +48,14 @@ export default class Therapieablauf extends Component {
 			</div>
 		);
 	}
+}
+
+export function Head({ location }) {
+	return (
+		<Seo
+			title="logo albstadt - Therapieablauf"
+			description="Unsere Therapie basiert auf unseren Grundprinzipien, welche wir Ihnen auf dieser Seite vorstellen möchten."
+			pathname={location.pathname}
+		/>
+	);
 }

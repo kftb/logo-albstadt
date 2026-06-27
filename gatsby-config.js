@@ -3,31 +3,16 @@ require("dotenv").config();
 module.exports = {
 	siteMetadata: {
 		title: "logo albstadt | Vivian Bay - die logopädische Praxis in Albstadt",
-
 		description:
 			"logo albstadt | Vivian Bay - die logopädische Praxis in Albstadt",
-		siteUrl: "https://www.logoalbstadt.de", // No trailing slash allowed!
-		image: "/images/logoalbstadt.png", // Path to your image you placed in the 'static' folder
+		siteUrl: "https://www.logoalbstadt.de",
+		image: "/images/logoalbstadt.png",
 		author: "Vivian Bay",
 	},
 	plugins: [
-		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-image",
-
-
-		{
-			resolve: "gatsby-plugin-sharp",
-			options: {
-				toFormat: "WEBP",
-			},
-		},
-
-		{
-			resolve: "gatsby-transformer-sharp",
-			options: {
-				icon: `${__dirname}/src/images/gatsby-icon.png`,
-			},
-		},
+		"gatsby-plugin-sharp",
+		"gatsby-transformer-sharp",
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
@@ -44,7 +29,7 @@ module.exports = {
 			},
 			__key: "pages",
 		},
-{
+		{
 			resolve: "gatsby-plugin-web-font-loader",
 			options: {
 				custom: {
