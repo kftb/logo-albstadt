@@ -8,8 +8,9 @@ export default function Process(): JSX.Element {
 			<div className='process-heading'>
 				Wie läuft eine Therapie bei logo albstadt ab?
 			</div>
+
 			<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>1</div>
-			<div style={{ gridColumn: 2, gridRow: 3 }} className='process-copy'>
+			<div style={{ gridColumn: 2, gridRow: 2 }} className='process-copy'>
 				<strong>Feststellung / Vorstellung beim Arzt</strong>
 				<ul>
 					<li>
@@ -40,9 +41,9 @@ export default function Process(): JSX.Element {
 				</ul>
 			</div>
 
-			<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>2</div>
-			<div style={{ gridColumn: 2, gridRow: 4 }} className='process-copy'>
-				<strong>Erstgespräch / Diagnostik </strong>
+			<div style={{ gridColumn: 1, gridRow: 3 }} className='process-number'>2</div>
+			<div style={{ gridColumn: 2, gridRow: 3 }} className='process-copy'>
+				<strong>Erstgespräch / Diagnostik</strong>
 				<ul>
 					<li>
 						Bei unserem ersten Gespräch, auch Anamnesegespräch genannt,
@@ -63,8 +64,8 @@ export default function Process(): JSX.Element {
 				</ul>
 			</div>
 
-			<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>3</div>
-			<div style={{ gridColumn: 2, gridRow: 5 }} className='process-copy'>
+			<div style={{ gridColumn: 1, gridRow: 4 }} className='process-number'>3</div>
+			<div style={{ gridColumn: 2, gridRow: 4 }} className='process-copy'>
 				<strong>Behandlung / Behandlungsdauer</strong>
 				<ul>
 					<li>
@@ -89,8 +90,8 @@ export default function Process(): JSX.Element {
 				</ul>
 			</div>
 
-			<div style={{ gridColumn: 1, gridRow: 2 }} className='process-number'>4</div>
-			<div className='process-copy' style={{ gridColumn: 2, gridRow: 6 }}>
+			<div style={{ gridColumn: 1, gridRow: 5 }} className='process-number'>4</div>
+			<div style={{ gridColumn: 2, gridRow: 5 }} className='process-copy'>
 				<strong>Behandlungskosten</strong>
 				<ul>
 					<li>
@@ -111,7 +112,8 @@ export default function Process(): JSX.Element {
 					</li>
 				</ul>
 			</div>
-			<div className='process-copy' style={{ gridColumn: "1 / span 2", gridRow: 6 }}>
+
+			<div style={{ gridColumn: "1 / span 2", gridRow: 6 }} className='process-copy'>
 				Kommen Sie bei weiteren Fragen gerne jederzeit auf uns zu.
 			</div>
 		</div>
