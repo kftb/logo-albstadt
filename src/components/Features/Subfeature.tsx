@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 import "../../styles/Subfeature.css";
 
-export default class Subfeature extends Component {
-	render() {
+interface SubfeatureProps {
+	img: string;
+	heading: string;
+	copy: string;
+	list: React.ReactNode;
+}
+
+export default class Subfeature extends Component<SubfeatureProps> {
+	render(): JSX.Element {
 		return (
 			<div className='subfeature'>
 				<div className='subfeature-img'>

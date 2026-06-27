@@ -5,7 +5,7 @@ import "../../styles/Impressum.css";
 import "../../styles/Quote.css";
 
 export default class Impressum extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='impressum'>
 				<div className='impressum-content'>
@@ -42,7 +42,7 @@ export default class Impressum extends Component {
 					</p>
 					<p>
 						<strong>Webdesign</strong> <br />
-						Kevin Bay <a src='https://kevbay.me'>(kevbay.me)</a>
+						Kevin Bay <a href='https://kevbay.me'>(kevbay.me)</a>
 					</p>
 					<p>
 						<h2>Haftungsausschluss</h2>

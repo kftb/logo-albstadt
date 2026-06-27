@@ -8,7 +8,7 @@ import { Seo } from "../components/SEO/SEO";
 import warningImg from "../images/undraw_warning_cyit.svg";
 
 export default class NotFound extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div>
 				<Layout>
@@ -27,7 +27,7 @@ export default class NotFound extends Component {
 									paddingTop: "2rem",
 								}}
 								src={warningImg}
-								alt=""
+								alt=''
 							/>
 						</div>
 					</div>
@@ -37,6 +37,6 @@ export default class NotFound extends Component {
 	}
 }
 
-export function Head({ location }) {
-	return <Seo title="logo albstadt - 404" pathname={location.pathname} />;
+export function Head({ location }: { location: { pathname: string } }): JSX.Element {
+	return <Seo title='logo albstadt - 404' pathname={location.pathname} />;
 }

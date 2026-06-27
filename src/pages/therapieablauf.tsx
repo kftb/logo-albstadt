@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import "../styles/index.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Intro from "../components/Intro/Intro";
@@ -12,7 +11,7 @@ import Layout from "../layouts/Layout";
 import { Seo } from "../components/SEO/SEO";
 
 export default class Therapieablauf extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div>
 				<Layout>
@@ -50,11 +49,11 @@ export default class Therapieablauf extends Component {
 	}
 }
 
-export function Head({ location }) {
+export function Head({ location }: { location: { pathname: string } }): JSX.Element {
 	return (
 		<Seo
-			title="logo albstadt - Therapieablauf"
-			description="Unsere Therapie basiert auf unseren Grundprinzipien, welche wir Ihnen auf dieser Seite vorstellen möchten."
+			title='logo albstadt - Therapieablauf'
+			description='Unsere Therapie basiert auf unseren Grundprinzipien, welche wir Ihnen auf dieser Seite vorstellen möchten.'
 			pathname={location.pathname}
 		/>
 	);

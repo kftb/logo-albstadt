@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../../styles/Intro.css";
 
 export default class Intro extends Component {
-	render() {
+	render(): JSX.Element {
 		return (
 			<div className='intro'>
 				<div className='intro-container'>
