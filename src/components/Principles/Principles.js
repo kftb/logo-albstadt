@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import "../../styles/Principles.css";
+import piece1 from "../../images/piece1.svg";
+import piece2 from "../../images/piece2.svg";
+import piece3 from "../../images/piece3.svg";
+import piece4 from "../../images/piece4.svg";
 
 export default class Principles extends Component {
 	render() {
@@ -16,7 +20,7 @@ export default class Principles extends Component {
 						<path
 							d='M1446 211C964 211 482 211 2.31339e-05 211L0.000162687 -0.000980906C325.35 220.759 379.575 -114.654 814.379 64.0909C1035.37 154.938 1150.78 239.987 1446 148.834L1446 211Z'
 							fill='#796357'
-							fill-opacity='0.6'
+							fillOpacity='0.6'
 						/>
 						<path
 							opacity='0.2'
@@ -31,13 +35,13 @@ export default class Principles extends Component {
 
 						<div className='principles-img'>
 							<img
-								style={{ "grid-column": 1, "grid-row": 1 }}
-								src={require("../../images/piece1.svg")}
+								style={{ gridColumn: 1, gridRow: 1 }}
+								src={piece1}
 								alt=''
 							/>
 						</div>
 						<div
-							style={{ "grid-column": 2, "grid-row": 2 }}
+							style={{ gridColumn: 2, gridRow: 2 }}
 							className='principles-copy'
 						>
 							<strong>Individuell</strong>
@@ -53,13 +57,13 @@ export default class Principles extends Component {
 
 						<div className='principles-img'>
 							<img
-								style={{ "grid-column": 1, "grid-row": 2 }}
-								src={require("../../images/piece3.svg")}
+								style={{ gridColumn: 1, gridRow: 2 }}
+								src={piece3}
 								alt=''
 							/>
 						</div>
 						<div
-							style={{ "grid-column": 2, "grid-row": 2 }}
+							style={{ gridColumn: 2, gridRow: 2 }}
 							className='principles-copy'
 						>
 							<strong>Zielsetzung</strong>
@@ -75,13 +79,13 @@ export default class Principles extends Component {
 
 						<div className='principles-img'>
 							<img
-								style={{ "grid-column": 1, "grid-row": 2 }}
-								src={require("../../images/piece2.svg")}
+								style={{ gridColumn: 1, gridRow: 2 }}
+								src={piece2}
 								alt=''
 							/>
 						</div>
 						<div
-							style={{ "grid-column": 2, "grid-row": 2 }}
+							style={{ gridColumn: 2, gridRow: 2 }}
 							className='principles-copy'
 						>
 							<strong>Transparenz</strong>
@@ -97,14 +101,14 @@ export default class Principles extends Component {
 
 						<div className='principles-img'>
 							<img
-								style={{ "grid-column": 1, "grid-row": 2 }}
-								src={require("../../images/piece4.svg")}
+								style={{ gridColumn: 1, gridRow: 2 }}
+								src={piece4}
 								alt=''
 							/>
 						</div>
 
 						<div
-							style={{ "grid-column": 2, "grid-row": 2 }}
+							style={{ gridColumn: 2, gridRow: 2 }}
 							className='principles-copy'
 						>
 							<strong>Ganzheitlich</strong>
@@ -130,7 +134,7 @@ export default class Principles extends Component {
 						<path
 							d='M1445.57 16.499C1439.12 277.004 1038.88 16.4989 778.297 16.4989C469.693 16.4989 -5.49401 325.036 -11.9334 16.4989C-12.0678 10.0572 -11.9333 0.000254045 -11.9333 0.000254045L1445.57 0.000137323C1445.57 0.000137323 1445.73 10.0577 1445.57 16.499Z'
 							fill='#796357'
-							fill-opacity='0.6'
+							fillOpacity='0.6'
 						/>
 						<path
 							opacity='0.2'

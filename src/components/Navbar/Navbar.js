@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/Navbar.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "gatsby";
+import logo from "../../images/logoalbstadt.svg";
 
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
 					<img
 						alt='logo albstadt'
 						className='navbar-logo'
-						src={require("../../images/logoalbstadt.svg")}
+						src={logo}
 					/>
 				</Link>
 			</Navbar.Brand>

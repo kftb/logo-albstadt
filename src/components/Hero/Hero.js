@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../styles/Hero.css";
+import logoName from "../../images/logoalbstadt_nameonly.svg";
 
 export default class Hero extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Hero extends Component {
               <img
                 alt="logo albstadt logo"
                 className="hero-img-logo"
-                src={require("../../images/logoalbstadt_nameonly.svg")}
+                src={logoName}
               ></img>
             </div>
             <div className="heroQuoteSubtitle">

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Subfeature from "./Subfeature.js";
 import { Link } from "gatsby";
 import "../../styles/Features.css";
+import kidsImg from "../../images/kids.png";
+import seniorsImg from "../../images/seniors.png";
 
 export default class Features extends Component {
 	render() {
@@ -14,7 +16,7 @@ export default class Features extends Component {
 				</div>
 
 				<Subfeature
-					img={require("../../images/kids.png")}
+					img={kidsImg}
 					heading='Kinder und Jugendliche'
 					copy='Bei Kinder und Jugendlichen fokussiert sich die Behandlung besonders oft auf Auffälligkeiten/Störungen, die sich aus der Sprachentwicklung ergeben haben. Bei logo albstadt haben wir u.a. Erfahrung mit den folgenden Störungsbildern: '
 					list={
@@ -64,7 +66,7 @@ export default class Features extends Component {
 					}
 				/>
 				<Subfeature
-					img={require("../../images/seniors.png")}
+					img={seniorsImg}
 					heading='Erwachsene und SeniorInnen'
 					copy='Bei der Behandlung von Erwachsenen und SeniorInnen liegt der Schwerpunkt besonders auf der Wiederherstellung von Sprach-, Sprech-, Stimm- und Schluckfähigkeiten, die aufgrund von Krankheit oder Unfall eingeschränkt worden sind.'
 					list={

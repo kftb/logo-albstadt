@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Layout from "../layouts/Layout";
 import { Seo } from "../components/SEO/SEO";
+import warningImg from "../images/undraw_warning_cyit.svg";
 
 export default class NotFound extends Component {
 	render() {
@@ -25,7 +26,7 @@ export default class NotFound extends Component {
 									margin: "0 auto",
 									paddingTop: "2rem",
 								}}
-								src={require("../images/undraw_warning_cyit.svg")}
+								src={warningImg}
 								alt=""
 							/>
 						</div>
