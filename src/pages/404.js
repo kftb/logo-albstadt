@@ -4,18 +4,17 @@ import "../styles/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Layout from "../layouts/Layout";
-import { Helmet } from "react-helmet";
+import { Seo } from "../components/SEO/SEO";
 
-export default class impressum extends Component {
+export default class NotFound extends Component {
 	render() {
 		return (
 			<div>
 				<Layout>
-					<Helmet title='logo albstadt - 404' />
 					<div>
-						<div style={{ "padding-top": "10rem", "text-align": "center" }}>
+						<div style={{ paddingTop: "10rem", textAlign: "center" }}>
 							<h2>Oops, hier ist etwas schiefgegangen.</h2>
-							<br></br>
+							<br />
 							<Link to='/' className='internal-link'>
 								Klicke hier um auf unsere Webseite zurückzukommen.
 							</Link>
@@ -24,14 +23,19 @@ export default class impressum extends Component {
 									width: "50%",
 									display: "block",
 									margin: "0 auto",
-									"padding-top": "2rem",
+									paddingTop: "2rem",
 								}}
 								src={require("../images/undraw_warning_cyit.svg")}
-							></img>
+								alt=""
+							/>
 						</div>
 					</div>
 				</Layout>
 			</div>
 		);
 	}
+}
+
+export function Head({ location }) {
+	return <Seo title="logo albstadt - 404" pathname={location.pathname} />;
 }

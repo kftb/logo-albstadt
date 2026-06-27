@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Helmet } from "react-helmet";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,15 +15,6 @@ export default class App extends Component {
 		return (
 			<div>
 				<Layout>
-					<Helmet
-						meta={[
-							{
-								name: "description",
-								content:
-									"logo albstadt ist Ihre logopädische Praxis von staatlich anerkannter Logopädin Vivian Bay in Albstadt. Wir behandeln alle Störungsbilder und Patienten jeden Alters - wir freuen uns über Ihren Anruf oder Nachricht!",
-							},
-						]}
-					/>
 					<Hero />
 					<Quote />
 					<Features />

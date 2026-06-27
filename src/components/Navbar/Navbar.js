@@ -19,7 +19,7 @@ export default function App() {
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 			<Navbar.Collapse id='responsive-navbar-nav'>
-				<Nav className='ml-4'>
+				<Nav className='ms-4'>
 					<Nav.Link className='nav-link' as={Link} to='/#fokus' href='/#fokus'>
 						Unser Praxisfokus
 					</Nav.Link>

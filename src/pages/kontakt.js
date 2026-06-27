@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Helmet } from "react-helmet";
 
 import "../styles/index.css";
 
@@ -8,28 +7,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import SimpleText from "../components/SimpleText/SimpleText";
 import Contactform from "../components/Contactform/Contactform";
 import Layout from "../layouts/Layout";
+import { Seo } from "../components/SEO/SEO";
 
 export default class Kontaktformular extends Component {
 	render() {
 		return (
 			<div>
 				<Layout>
-					<Helmet
-						title='logo albstadt - Kontakt'
-						meta={[
-							{
-								name: "description",
-								content:
-									"Über unser Kontaktformular können Sie uns direkt eine Nachricht senden. Wir freuen uns über alle Anfragen von Ihnen!",
-							},
-						]}
-					/>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
 					<SimpleText
 						heading='Kontaktformular'
 						copy={[
@@ -50,4 +40,14 @@ export default class Kontaktformular extends Component {
 			</div>
 		);
 	}
+}
+
+export function Head({ location }) {
+	return (
+		<Seo
+			title="logo albstadt - Kontakt"
+			description="Über unser Kontaktformular können Sie uns direkt eine Nachricht senden. Wir freuen uns über alle Anfragen von Ihnen!"
+			pathname={location.pathname}
+		/>
+	);
 }
