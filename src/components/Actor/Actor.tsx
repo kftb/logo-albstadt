@@ -34,6 +34,7 @@ export default function Actor(): JSX.Element {
 							src='../../images/vivian.png'
 							alt='Vivian Bay'
 							layout='constrained'
+							className='actor-photo'
 						/>
 					</div>
 					<div className='actor-text'>

@@ -33,7 +33,7 @@ export default function Principles(): JSX.Element {
 						<StaticImage
 							src='../../images/piece1.svg'
 							alt=''
-							style={{ gridColumn: 1, gridRow: 1 }}
+							className='principles-icon'
 						/>
 					</div>
 					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
@@ -52,7 +52,7 @@ export default function Principles(): JSX.Element {
 						<StaticImage
 							src='../../images/piece3.svg'
 							alt=''
-							style={{ gridColumn: 1, gridRow: 2 }}
+							className='principles-icon'
 						/>
 					</div>
 					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
@@ -71,7 +71,7 @@ export default function Principles(): JSX.Element {
 						<StaticImage
 							src='../../images/piece2.svg'
 							alt=''
-							style={{ gridColumn: 1, gridRow: 2 }}
+							className='principles-icon'
 						/>
 					</div>
 					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
@@ -90,7 +90,7 @@ export default function Principles(): JSX.Element {
 						<StaticImage
 							src='../../images/piece4.svg'
 							alt=''
-							style={{ gridColumn: 1, gridRow: 2 }}
+							className='principles-icon'
 						/>
 					</div>
 					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
