@@ -29,12 +29,8 @@ export default function Principles(): JSX.Element {
 				<div className='principles-container'>
 					<div className='principles-heading'>Unsere Praxisphilosophie</div>
 
-					<div className='principles-img'>
-						<StaticImage
-							src='../../images/piece1.svg'
-							alt=''
-							className='principles-icon'
-						/>
+					<div style={{ gridColumn: 1, gridRow: 2 }} className='principles-img'>
+						<StaticImage src='../../images/piece1.svg' alt='' className='principles-icon' />
 					</div>
 					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
 						<strong>Individuell</strong>
@@ -48,14 +44,10 @@ export default function Principles(): JSX.Element {
 						Therapieverlauf anpassen.
 					</div>
 
-					<div className='principles-img'>
-						<StaticImage
-							src='../../images/piece3.svg'
-							alt=''
-							className='principles-icon'
-						/>
+					<div style={{ gridColumn: 1, gridRow: 3 }} className='principles-img'>
+						<StaticImage src='../../images/piece3.svg' alt='' className='principles-icon' />
 					</div>
-					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
+					<div style={{ gridColumn: 2, gridRow: 3 }} className='principles-copy'>
 						<strong>Zielsetzung</strong>
 						<br />
 						Der wichtigste Bestandteil des Therapieplans ist für uns das
@@ -67,14 +59,10 @@ export default function Principles(): JSX.Element {
 						ist.
 					</div>
 
-					<div className='principles-img'>
-						<StaticImage
-							src='../../images/piece2.svg'
-							alt=''
-							className='principles-icon'
-						/>
+					<div style={{ gridColumn: 1, gridRow: 4 }} className='principles-img'>
+						<StaticImage src='../../images/piece2.svg' alt='' className='principles-icon' />
 					</div>
-					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
+					<div style={{ gridColumn: 2, gridRow: 4 }} className='principles-copy'>
 						<strong>Transparenz</strong>
 						<br />
 						Den Überblick im Wirrwarr von Ärzten, Therapeuten und unzähligen
@@ -86,14 +74,10 @@ export default function Principles(): JSX.Element {
 						verbessern.
 					</div>
 
-					<div className='principles-img'>
-						<StaticImage
-							src='../../images/piece4.svg'
-							alt=''
-							className='principles-icon'
-						/>
+					<div style={{ gridColumn: 1, gridRow: 5 }} className='principles-img'>
+						<StaticImage src='../../images/piece4.svg' alt='' className='principles-icon' />
 					</div>
-					<div style={{ gridColumn: 2, gridRow: 2 }} className='principles-copy'>
+					<div style={{ gridColumn: 2, gridRow: 5 }} className='principles-copy'>
 						<strong>Ganzheitlich</strong>
 						<br />
 						Es wird oftmals angenommen, dass die Ursachen für logopädische
