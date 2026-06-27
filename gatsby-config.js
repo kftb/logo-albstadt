@@ -11,18 +11,6 @@ module.exports = {
 		author: "Vivian Bay",
 	},
 	plugins: [
-		{
-			resolve: `gatsby-plugin-gdpr-cookies`,
-			options: {
-				googleAnalytics: {
-					trackingId: process.env.GA_TRACKING_ID, // leave empty if you want to disable the tracker
-					cookieName: "gatsby-gdpr-google-analytics", // default
-					anonymize: true, // default
-					allowAdFeatures: false, // default
-				},
-				environments: ["production", "development"],
-			},
-		},
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-image",
 
