@@ -14,10 +14,16 @@ export default function Contactform(): JSX.Element {
 				method='POST'
 				className='contact-grid'
 				data-netlify='true'
+				data-netlify-honeypot='bot-field'
 				action='/kontakt'
 				onSubmit={handleSubmit}
 			>
 				<input type='hidden' name='form-name' value='Kontaktformular' />
+				<p style={{ display: "none" }}>
+					<label>
+						Nicht ausfüllen: <input name='bot-field' />
+					</label>
+				</p>
 				<label id='name' htmlFor='namebox'>
 					Vor- und Nachname*
 				</label>
