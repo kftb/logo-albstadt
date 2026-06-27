@@ -89,8 +89,9 @@
 	margin-bottom: 1rem;
 }
 
-.actor-img img {
+.actor-photo {
 	width: 88%;
+	height: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -114,8 +115,9 @@
 			"cert";
 	}
 
-	.actor-img img {
+	.actor-photo {
 		width: 50%;
+		height: auto;
 	}
 }
 

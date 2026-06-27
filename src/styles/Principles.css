@@ -65,7 +65,7 @@
 	justify-self: right;
 }
 
-.principles-img img {
+.principles-icon {
 	width: 60%;
 }
 
@@ -84,11 +84,5 @@
 	.principles-container {
 		margin-top: -6%;
 		padding-bottom: 5rem;
-
-		grid-template-areas:
-			"heading heading"
-			"img text"
-			"img cv"
-			"img cert";
 	}
 }

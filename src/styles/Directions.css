@@ -13,7 +13,7 @@
 	text-align: center;
 }
 
-.directions img {
+.directions-map {
 	display: block;
 	margin: 0 auto;
 	width: 80vw;
@@ -24,7 +24,7 @@
 }
 
 @media (min-width: 1500px) {
-	.directions img {
+	.directions-map {
 		width: 65vw;
 	}
 }

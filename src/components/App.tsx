@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -10,19 +10,15 @@ import CTA from "./CTA/CTA";
 import Directions from "./Directions/Directions";
 import Layout from "../layouts/Layout";
 
-export default class App extends Component {
-	render(): JSX.Element {
-		return (
-			<div>
-				<Layout>
-					<Hero />
-					<Quote />
-					<Features />
-					<Actor />
-					<CTA />
-					<Directions />
-				</Layout>
-			</div>
-		);
-	}
+export default function App(): JSX.Element {
+	return (
+		<Layout>
+			<Hero />
+			<Quote />
+			<Features />
+			<Actor />
+			<CTA />
+			<Directions />
+		</Layout>
+	);
 }

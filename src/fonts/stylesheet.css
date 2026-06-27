@@ -7,6 +7,7 @@
 		url("modulus-webfont.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
 		url("modulus-bold-webfont.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -25,6 +27,7 @@
 		url("pollyrounded-bold-webfont.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -34,6 +37,7 @@
 		url("pollyrounded-light-webfont.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -43,6 +47,7 @@
 		url("pollyrounded-regular-webfont.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -52,6 +57,7 @@
 		url("pollyrounded-thin-webfont.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -61,6 +67,7 @@
 		url("droidsans-bold-webfont.ttf") format("truetype");
 	font-weight: 700;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -70,4 +77,5 @@
 		url("droidsans-webfont.ttf") format("truetype");
 	font-weight: 400;
 	font-style: normal;
+	font-display: swap;
 }
