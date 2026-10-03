@@ -9,49 +9,93 @@ export default function Impressum(): JSX.Element {
 		<div className='impressum'>
 			<div className='impressum-content'>
 				<h1>Impressum und Datenschutz</h1>
-				<p>Angaben gemäß § 5 TMG</p>
+				<p>Angaben gemäß § 5 DDG</p>
 				<p>
-					Vivian Bay <br />
+					Praxis für Logopädie Vivian Bay <br />
 					Talstraße 3<br />
 					72461 Albstadt <br />
 				</p>
 				<p>
-					{" "}
-					<strong>Vertreten durch: </strong>
+					<strong>Vertreten durch:</strong>
 					<br />
 					Vivian Bay
-					<br />
 				</p>
 				<p>
 					<strong>Kontakt:</strong> <br />
-					Tel: <Obfuscate tel='07432/60 58 150' /> <br />
-					Email: <Obfuscate email='praxis@logoalbstadt.de' />
+					Telefon: <Obfuscate tel='07432 / 6058150' /> <br />
+					E-Mail: <Obfuscate email='praxis@logoalbstadt.de' />
+				</p>
+				<h2>Berufsrechtliche Angaben</h2>
+				<p>
+					<strong>Gesetzliche Berufsbezeichnung:</strong>
 					<br />
+					Logopädin (verliehen in der Bundesrepublik Deutschland)
 				</p>
 				<p>
-					<strong>Aufsichtsbehörde:</strong>
+					<strong>Berufsrechtliche Regelungen:</strong>
 					<br />
-					Zulassung durch die ARGE Heilmittelzulassung Baden-Württemberg nach
-					Paragraph 124 Abs. 1 SGB V
+					Gesetz über den Beruf des Logopäden (Logopädengesetz – LogopG)
 					<br />
+					Ausbildungs- und Prüfungsordnung für Logopäden (LogAPrO)
+					<br />
+					(Die Regelungen sind einsehbar unter:{" "}
+					<a href='https://www.gesetze-im-internet.de'>
+						www.gesetze-im-internet.de
+					</a>
+					)
 				</p>
 				<p>
-					<strong>Bildmaterial</strong> <br />
+					<strong>Umsatzsteuer-ID:</strong>
+					<br />
+					Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:
+					DE339537578
+				</p>
+				<p>
+					<strong>Zuständige Aufsichtsbehörde (Gesundheitsamt):</strong>
+					<br />
+					Landratsamt Zollernalbkreis – Gesundheitsamt
+					<br />
+					Hirschbergstraße 29
+					<br />
+					72336 Balingen
+				</p>
+				<p>
+					<strong>
+						Zulassungsbehörde (Abrechnung nach § 124 Abs. 1 SGB V):
+					</strong>
+					<br />
+					ARGE Heilmittelzulassung Baden-Württemberg
+				</p>
+				<h2>Angaben zur Berufshaftpflichtversicherung</h2>
+				<p>
+					<strong>Name und Sitz des Versicherers:</strong>
+					<br />
+					VPV Versicherungen
+					<br />
+					Eisenheimerstr. 49, 80687 München
+				</p>
+				<p>
+					<strong>Geltungsraum der Versicherung:</strong>
+					<br />
+					Deutschland
+				</p>
+				<h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
+				<p>
+					Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
+					vor einer Verbraucherschlichtungsstelle teilzunehmen.
+				</p>
+				<h2>Bildnachweis &amp; Webdesign</h2>
+				<p>
+					<strong>Bildmaterial:</strong> <br />
 					Pexels.com
 				</p>
-				<p>
-					<strong>Webdesign</strong> <br />
-					Kevin Bay <a href='https://kevbay.me'>(kevbay.me)</a>
-				</p>
-				<p>
-					<h2>Haftungsausschluss</h2>
+				<h2>Haftungsausschluss</h2>
+				<div>
 					<h3>Haftung für Inhalte</h3>
-					Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für
-					die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können
-					wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir
-					gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
-					allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir
-					als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder
+					Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG / § 5 DDG für
+					eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
+					verantwortlich. Nach §§ 8 bis 10 TMG / §§ 7 bis 10 DDG sind wir als
+					Diensteanbieter jedoch nicht verpflichtet, übermittelte oder
 					gespeicherte fremde Informationen zu überwachen oder nach Umständen
 					zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
 					Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
@@ -114,10 +158,8 @@ export default function Impressum(): JSX.Element {
 					von Werbeinformationen, etwa durch Spam-Mails, vor.
 					<br />
 					<br />
-				</p>
+				</div>
 				<br />
-				Website Impressum von{" "}
-				<a href='https://www.impressum-generator.de'>impressum-generator.de</a>
 			</div>
 		</div>
 	);
