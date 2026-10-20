@@ -3,6 +3,7 @@
 html {
 	font-size: 12px;
 	scroll-behavior: smooth;
+	scroll-padding-top: 7rem;
 }
 
 body {
@@ -17,4 +18,11 @@ body {
 .internal-link:link {
 	color: #b34a0e !important;
 	text-decoration: none !important;
+}
+
+@media (pointer: coarse) {
+	.nav-link {
+		padding-top: 0.8rem !important;
+		padding-bottom: 0.8rem !important;
+	}
 }

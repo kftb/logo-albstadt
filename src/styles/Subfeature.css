@@ -1,7 +1,7 @@
 .subfeature {
 	display: grid;
 	grid-template-columns: 25% 75%;
-	grid-template-rows: repeat(auto, 3);
+	grid-template-rows: auto;
 	grid-template-areas:
 		"img heading"
 		"img copy";
@@ -16,6 +16,12 @@
 	width: 55%;
 	height: auto;
 	margin-top: 0.5rem;
+}
+
+.subfeature-heading,
+.subfeature-copy {
+	min-width: 0;
+	overflow-wrap: anywhere;
 }
 
 .subfeature-heading {
@@ -41,8 +47,8 @@
 @media only screen and (max-width: 600px) {
 	.subfeature {
 		display: grid;
-		grid-template-columns: 100%;
-		grid-template-rows: repeat(auto, 3);
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-rows: auto;
 		grid-template-areas:
 			"img"
 			"heading"
@@ -52,9 +58,7 @@
 	}
 
 	.subfeature-img {
-		grid-column: 1;
-		grid-row: 1;
-		grid-area: "img";
+		grid-area: img;
 		width: 75%;
 	}
 }

@@ -46,3 +46,12 @@
 .cta-booking-button:hover {
 	background: #6b2c08;
 }
+
+.cta a {
+	display: inline-block;
+	padding: 0.6rem 0;
+}
+
+.cta-booking-button {
+	min-height: 44px;
+}
