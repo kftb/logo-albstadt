@@ -32,3 +32,17 @@
 	color: #6b2c08;
 	text-decoration: none;
 }
+
+.cta-booking-button {
+	font: inherit;
+	color: #fff;
+	background: #b34a0e;
+	border: none;
+	border-radius: 5px;
+	padding: 0.6rem 1.5rem;
+	cursor: pointer;
+}
+
+.cta-booking-button:hover {
+	background: #6b2c08;
+}
